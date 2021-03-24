@@ -30,6 +30,7 @@ Created by <i class="fab fa-telegram"></i>
         Rectángulo: perímetro y Área
         <p>
             <a href="#/8"><img src="images/problema.png"></a>
+            <a href="#/10"><img src="images/pseint_logo.png"></a>
             <a href="#/11"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -38,6 +39,7 @@ Created by <i class="fab fa-telegram"></i>
         Calcular Promedio
         <p>
             <a href="#/13"><img src="images/problema.png"></a>
+            <a href="#/15"><img src="images/pseint_logo.png"></a>
             <a href="#/16"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -46,6 +48,7 @@ Created by <i class="fab fa-telegram"></i>
         Traducir DF a Pseudocódigo
         <p>
             <a href="#/18"><img src="images/problema.png"></a>
+            <a href="#/20"><img src="images/pseint_logo.png"></a>
         </p>
     </div>
     <div>
@@ -53,6 +56,7 @@ Created by <i class="fab fa-telegram"></i>
         Sueldo Bruto
         <p>
             <a href="#/23"><img src="images/problema.png"></a>
+            <a href="#/25"><img src="images/pseint_logo.png"></a>
             <a href="#/26"><img src="images/c++.png"></a>
             <a href="#/27"><img src="images/youtube_logo.png"></a>
         </p>
@@ -62,6 +66,7 @@ Created by <i class="fab fa-telegram"></i>
         Suma y Multiplicación
         <p>
             <a href="#/28"><img src="images/problema.png"></a>
+            <a href="#/30"><img src="images/pseint_logo.png"></a>
             <a href="#/31"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -70,6 +75,7 @@ Created by <i class="fab fa-telegram"></i>
         Vuelto
         <p>
             <a href="#/33"><img src="images/problema.png"></a>
+            <a href="#/35"><img src="images/pseint_logo.png"></a>
             <a href="#/36"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -78,6 +84,7 @@ Created by <i class="fab fa-telegram"></i>
         Segundos que hay en X dias
         <p>
             <a href="#/38"><img src="images/problema.png"></a>
+            <a href="#/40"><img src="images/pseint_logo.png"></a>
             <a href="#/41"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -86,6 +93,7 @@ Created by <i class="fab fa-telegram"></i>
         Seg a semanas, dias, hs, min, seg
         <p>
             <a href="#/43"><img src="images/problema.png"></a>
+            <a href="#/45"><img src="images/pseint_logo.png"></a>
             <a href="#/46"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -94,6 +102,7 @@ Created by <i class="fab fa-telegram"></i>
         Distancia: Millas a Kilometros
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
+            <a href="#/50"><img src="images/pseint_logo.png"></a>
             <a href="#/51"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -102,6 +111,7 @@ Created by <i class="fab fa-telegram"></i>
         Farenheit a Celcius
         <p>
             <a href="#/53"><img src="images/problema.png"></a>
+            <a href="#/55"><img src="images/pseint_logo.png"></a>
             <a href="#/56"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -110,6 +120,7 @@ Created by <i class="fab fa-telegram"></i>
         Gasolineria
         <p>
             <a href="#/58"><img src="images/problema.png"></a>
+            <a href="#/60"><img src="images/pseint_logo.png"></a>
             <a href="#/61"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -123,23 +134,26 @@ Created by <i class="fab fa-telegram"></i>
         <h3>EJ 13</h3>
         Sonidos de grillo
         <p>
-                    <a href="#/63"><img src="images/problema.png"></a>
-                    <a href="#/66"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/63"><img src="images/problema.png"></a>
+            <a href="#/65"><img src="images/pseint_logo.png"></a>
+            <a href="#/66"><img src="images/c++.png"></a>
+        </p>
     </div>
     <div>
         <h3>EJ 14</h3>
         Billetes de Vuelto
         <p>
-                    <a href="#/68"><img src="images/problema.png"></a>
-                    <a href="#/71"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/68"><img src="images/problema.png"></a>
+            <a href="#/70"><img src="images/pseint_logo.png"></a>
+            <a href="#/71"><img src="images/c++.png"></a>
+        </p>
     </div>
     <div>
         <h3>EJ 15</h3>
         Ángulos: Grados a Radianes
         <p>
             <a href="#/73"><img src="images/problema.png"></a>
+            <a href="#/75"><img src="images/pseint_logo.png"></a>
             <a href="#/76"><img src="images/c++.png"></a>
             <a href="#/77"><img src="images/youtube_logo.png"></a>
         </p>
@@ -149,6 +163,7 @@ Created by <i class="fab fa-telegram"></i>
         Coordenadas: Cartesianas a Polares
         <p>
             <a href="#/78"><img src="images/problema.png"></a>
+            <a href="#/80"><img src="images/pseint_logo.png"></a>
             <a href="#/81"><img src="images/c++.png"></a>
         </p>
     </div>
@@ -156,49 +171,55 @@ Created by <i class="fab fa-telegram"></i>
         <h3>EJ 17</h3>
         Calcular Hipotenusa
         <p>
-                    <a href="#/83"><img src="images/problema.png"></a>
-                    <a href="#/86"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/83"><img src="images/problema.png"></a>
+            <a href="#/85"><img src="images/pseint_logo.png"></a>
+            <a href="#/86"><img src="images/c++.png"></a>
+        </p>
     </div>
     <div>
         <h3>EJ 18</h3>
         Círculo: Perímetro y Área
         <p>
-                    <a href="#/88"><img src="images/problema.png"></a>
-                    <a href="#/91"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/88"><img src="images/problema.png"></a>
+            <a href="#/90"><img src="images/pseint_logo.png"></a>
+            <a href="#/91"><img src="images/c++.png"></a>
+        </p>
     </div>
     <div>
         <h3>EJ 19</h3>
         Cilindro: Área y Volumen
         <p>
-                    <a href="#/93"><img src="images/problema.png"></a>
-                    <a href="#/96"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/93"><img src="images/problema.png"></a>
+            <a href="#/95"><img src="images/pseint_logo.png"></a>
+            <a href="#/96"><img src="images/c++.png"></a>
+        </p>
     </div>
     <div>
         <h3>EJ 20</h3>
         Área del Triángulo
         <p>
-                    <a href="#/98"><img src="images/problema.png"></a>
-                    <a href="#/101"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/98"><img src="images/problema.png"></a>
+            <a href="#/100"><img src="images/pseint_logo.png"></a>
+            <a href="#/101"><img src="images/c++.png"></a>
+        </p>
     </div>
     <div>
         <h3>EJ 21</h3>
         Distancia entre 2 puntos
         <p>
-                    <a href="#/103"><img src="images/problema.png"></a>
-                    <a href="#/106"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/103"><img src="images/problema.png"></a>
+            <a href="#/105"><img src="images/pseint_logo.png"></a>
+            <a href="#/106"><img src="images/c++.png"></a>
+        </p>
     </div>
     <div>
         <h3>EJ 22</h3>
         Cálculo de Raíces
         <p>
-                    <a href="#/108"><img src="images/problema.png"></a>
-                    <a href="#/111"><img src="images/c++.png"></a>
-                </p>
+            <a href="#/108"><img src="images/problema.png"></a>
+            <a href="#/110"><img src="images/pseint_logo.png"></a>
+            <a href="#/111"><img src="images/c++.png"></a>
+        </p>
     </div>
 </div>
 
@@ -264,6 +285,21 @@ Permita leer dos números desde el teclado (ancho y alto de un rectángulo); mos
 
 ---
 ### EJ2: Rectángulo: perímetro y Área
+````javascript
+Proceso u1_ej2_Calculo_Rectangulo
+	Definir base, altura, perimetro, area como Real
+	Escribir "Ingrese base: "
+	Leer base
+	Escribir "Ingrese altura: "
+	Leer altura
+	area=base*altura
+	Escribir "El valor del área es: ", area
+	perimetro=base*2+altura*2
+	Escribir "El valor del perimetro es: ", perimetro
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ2: Rectángulo: perímetro y Área
@@ -301,6 +337,18 @@ Permitir que el usuario ingrese 2 números. Calcular el promedio entre ambos.
 
 ---
 ### EJ3: Calcular Promedio
+````javascript
+Proceso u1_ej3_Calculo_Promedio
+	Definir num1, num2 como Real
+	Escribir "Ingrese un numero: "
+	Leer num1
+	Escribir "Ingrese segundo numero: "
+	Leer num2
+	Escribir "El promedio de los numeros es es: ", (num1+num2)/2
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ3: Calcular Promedio
@@ -336,6 +384,21 @@ Traduzca los siguientes diagramas de flujo a pseudocódigo.
 
 ---
 ### EJ4: Traducir DF a Pseudocódigo 
+````javascript
+Proceso u1_tp1_ej4b_pie_libras
+	Definir pie, libras, metro, kilo Como Real
+	Escribir "Ingrese distancia en pies: "
+	Leer pie
+	Escribir "Ingrese peso en libras: "
+	Leer libras
+	metro=pie*0.3048
+	kilo=libras*0.45359
+	Escribir "La distancia en metros es: ", metro
+	Escribir "El peso en Kilos es: ", kilo
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ4: Traducir DF a Pseudocódigo
@@ -364,7 +427,24 @@ Permite ingresar el sueldo bruto de una persona. Muestra por pantalla su sueldo 
 ### EJ5: Sueldo Bruto 
 
 ---
-### EJ5: Sueldo Bruto 
+### EJ5: Sueldo Bruto
+````javascript \
+Proceso u1_ej5_sueldo_bruto
+	Definir sueldoB, sueldoN, aporJ, obraSoc, pami como Real
+	Escribir "Ingrese sueldo Bruto: "
+	Leer sueldoB
+	sueldoN=sueldoB*0.83
+	aporJ=sueldoN*0.11
+	obraSoc=sueldoN*0.03
+	pami=sueldoN*0.03
+	Escribir "Su sueldo Neto es: ", sueldoN
+	Escribir "Su aporte jubilatorio es: ", aporJ
+	Escribir "Su aporte a obra social es: ", obraSoc
+	Escribir "Su aporte a pami es: ", pami
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ5: Sueldo Bruto 
@@ -407,6 +487,19 @@ de ambos números.
 
 ---
 ### EJ6: Suma y Multiplicación
+````javascript 
+Proceso u1_tp1_ej6_suma_multiplicacion
+	Definir num1, num2 como Real
+	Escribir "Ingrese un numero: "
+	Leer num1
+	Escribir "Ingrese segundo numero: "
+	Leer num2
+	Escribir "La suma es: ", num1+num2
+	Escribir "La multiplicacion es: ", num1*num2
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ6: Suma y Multiplicación
@@ -444,6 +537,18 @@ pantalla el resultado del cambio que debe ser devuelto. (se asume que el cliente
 
 ---
 ### EJ7: Vuelto 
+````javascript
+Proceso u1_tp1_ej7_monto_pagar
+	Definir monto_pagar, dinero_entregado como Real
+	Escribir "Monto a Pagar: "
+	Leer monto_pagar
+	Escribir "Dinero Pagado: "
+	Leer dinero_entregado
+	Escribir "El vuelto es: ", dinero_entregado-monto_pagar
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ7: Vuelto
@@ -478,6 +583,16 @@ Calcule la cantidad de segundos que hay en una determinada cantidad de días (qu
 
 ---
 ### EJ8: Segundos que hay en X dias 
+````javascript
+Proceso u1_tp1_ej8_seg_dias
+	Definir dias como Entero
+	Escribir "Ingrese cantidad de dias: "
+	Leer dias
+	Escribir "El tiempo en segundos es: ", 60*60*24*dias
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ8: Segundos que hay en X dias
@@ -511,6 +626,27 @@ El tiempo equivalente es: 1semanas 3dias 0horas 59minutos 3segundos
 
 ---
 ### EJ9: Seg a semanas, dias, hs, min, seg 
+````javascript
+Proceso u1_tp1_ej8_seg_dias
+	Definir seg, sem, dia, hs, min, tiempo_restante como entero
+	Escribir "Ingrese tiempo en segundos: "
+	Leer seg
+	sem=trunc(seg/(60*60*24*7))
+	tiempo_restante=seg%(60*60*24*7)
+	
+	dia=trunc(tiempo_restante/(60*60*24))
+	tiempo_restante=seg%(60*60*24)
+	
+	hs=trunc(tiempo_restante/(60*60))
+	tiempo_restante=seg%(60*60)
+	
+	min=trunc(tiempo_restante/60)
+	segun2=tiempo_restante%60
+	Escribir "El tiempo equivalente es: ",sem, "semanas ", dia, "dias ", hs, "horas ", min, "minutos ", segun2, "segundos"
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ9: Seg a semanas, dias, hs, min, seg
@@ -539,6 +675,16 @@ Permite ingresar una distancia en millas y devuelve el valor en kilómetros. Rec
 
 ---
 ### EJ10: Distancia: Millas a Kilometros 
+````javascript
+Proceso u1_tp1_ej10_millas_km
+	Definir millas, km Como Real
+	Escribir "Ingrese distancia en millas: "
+	Leer millas
+	Escribir "La distancia en kilometros es: ", millas*1.609
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ10: Distancia: Millas a Kilometros 
@@ -572,6 +718,16 @@ Recuerde que: C=(F-32)/1,8
 
 ---
 ### EJ11: Farenheit a Celcius
+````javascript
+Proceso u1_tp1_ej11_farenheit_celcius
+	Definir fa,	cel Como Real
+	Escribir "Ingrese temperatura en farenheit: "
+	Leer fa
+	Escribir "La temperatura en celcius es: ", (fa-32)/1.8
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ11: Farenheit a Celcius
@@ -606,6 +762,17 @@ diseñe el algoritmo que permita a los cajeros cobrar.
 
 ---
 ### EJ12: Gasolineria 
+````javascript
+Proceso u1_tp1_ej12_gasolinera
+	Definir galones_surtidos, precioxLitro como Real
+	precioxLitro=42.32
+	Escribir "Ingrese cantidad de galones surtidos: "
+	Leer galones_surtidos
+	Escribir "Se debe abonar: ", galones_surtidos*3.378541*precioxLitro
+FinProceso
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ12: Gasolineria 
@@ -641,6 +808,18 @@ valor N y debe mostrar la temperatura en grados Celsius y Fahrenheit.
 
 ---
 ### EJ13: Sonidos de grillo 
+````javascript
+Proceso u1_tp1_ej13_temperatura
+	Definir sonidosN, fa como Real
+	Escribir "Ingrese número de sonidos emitidos por un grillo en un minuto: "
+	Leer sonidosN
+	fa=(sonidosN/4)+40
+	Escribir "La temperatura en Farenheit es: ", fa
+	Escribir "La temperatura en Celcius es: ", (fa-32)/1.8
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ13: Sonidos de grillo
@@ -691,6 +870,31 @@ Cantidad de billetes de $1: 1
 
 ---
 ### EJ14: Billetes de Vuelto 
+````javascript
+Proceso u1_tp1_ej14_vuelto_billetes
+	Definir aPagar, pagad, vuelto, cant50, cant20, cant10, cant5, cant1 como Real
+	Escribir "Ingrese monto a pagar: "
+	Leer aPagar
+	Escribir "Ingrese monto abonado: "
+	Leer pagado
+	vuelto=pagado-aPagar
+	
+	cant50=trunc(vuelto/50)
+	vuelto=vuelto%50
+	cant20=trunc(vuelto/20)
+	vuelto=vuelto%20
+	cant10=trunc(vuelto/10)
+	vuelto=vuelto%10
+	cant5=trunc(vuelto/5)
+	vuelto=vuelto%5
+	cant1=vuelto
+	
+	Escribir "El vuelto es: $50 ", cant50, " $20 ", cant20, " $10 ", cant10, " $5 ", cant5, " $1 ", cant1 
+	
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ14: Billetes de Vuelto
@@ -719,6 +923,16 @@ Permitir que el usuario ingrese un ángulo en grados. Mostrar en pantalla la con
 
 ---
 ### EJ15: Ángulos: Grados a Radianes 
+````javascript
+Proceso u1_tp1_ej15_grados_radianes
+	Definir grados como Real
+	Escribir "Ingrese angulo en grados: "
+	Leer grados
+	Escribir "El angulo en radianes es: ", grados*3.14/180	
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ15: Ángulos: Grados a Radianes
@@ -756,6 +970,16 @@ para emplear las funciones atan y sqrt)
 
 ---
 ### EJ16: Coordenadas: Cartesianas a Polares
+````javascript
+Proceso u1_tp1_ej16_cartesiano_polar
+	Definir coor_x, coor_y, radio, titha Como Real
+	Escribir "Ingrese coordenadas cartesianas: "
+	Leer coor_x, coor_y
+	Escribir "Las coordenadas polares son: (", (coor_x^2+coor_y^2)^0.5, " , ", atan(coor_y/coor_x)*180/3.14	
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ16: Coordenadas: Cartesianas a Polares
@@ -795,6 +1019,16 @@ hipotenusa: h=raiz(c1^2+c2^2).
 
 ---
 ### EJ17: Calcular Hipotenusa 
+````javascript
+Proceso u1_tp1_ej17_triangulo
+	Definir cat1, cat2 Como Real
+	Escribir "Ingrese valor de ambos catetos: "
+	Leer cat1, cat2
+	Escribir "El valor de la hipotenusa es: ", (cat1^2+cat2^2)^0.5
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ17: Calcular Hipotenusa
@@ -831,6 +1065,17 @@ Permita ingresar el valor del radio de un círculo por teclado. Debe mostrar por
 
 ---
 ### EJ18: Círculo: Perímetro y Área 
+````javascript
+Proceso u1_tp1_ej18_circulo
+	Definir radio Como Real
+	Escribir "Ingrese valor del radio: "
+	Leer radio
+	Escribir "El perimetro del circulo es: ", pi*radio*2
+	Escribir "El area del circulo es: ", pi*radio^2
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ18: Círculo: Perímetro y Área
@@ -867,6 +1112,19 @@ calcularse como Vcilindro=π×r2×h y el área puede calcularse como Acilindro=2
 
 ---
 ### EJ19: Cilindro: Área y Volumen 
+````javascript
+Proceso u1_tp1_ej19_cilindro
+	Definir radio, altura como Real
+	Escribir "Ingrese valor del radio del cilindro: "
+	Leer radio
+	Escribir "Ingrese valor de la altura del cilindro: "
+	Leer altura
+	Escribir "El volumen del cilindro es: ", pi*radio^2*altura
+	Escribir "El area del cilindro es: ", 2*pi*radio*altura
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ19: Cilindro: Área y Volumen
@@ -905,6 +1163,18 @@ fórmulas: Á=S×(S-L1)×(S-L2)×(S-L3) donde S=(L1+L2+L3)/2
 
 ---
 ### EJ20: Área del Triángulo 
+````javascript
+Proceso u1_tp1_ej20_triangulo
+	Defirnir lado1, lado2, lado3, s, a como Real
+	Escribir "Ingrese valor de cada lado del triangulo: "
+	Leer lado1, lado2, lado3
+	s=(lado1+lado2+lado3)/2
+	a=(s*(s-lado1)*(s-lado2)*(s-lado3))^0.5
+	Escribir "El área del triangulo es: ", a
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ20: Área del Triángulo
@@ -944,6 +1214,18 @@ D=raiz((X1-X2)^2+(Y1-Y2)^2)
 
 ---
 ### EJ21: Distancia entre 2 puntos 
+````javascript
+Proceso u1_tp1_ej21_distancia_puntos
+	Definir x1, y1, x2, y2 Como Real
+	Escribir "Ingrese punto 1: "
+	Leer x1, y1
+	Escribir "Ingrese punto 2: "
+	Leer x2, y2
+	Escribir "La distancia entre los puntos es: ", ((x1-x2)^2+(y1-y2)^2)^0.5
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ21: Distancia entre 2 puntos 
@@ -985,6 +1267,23 @@ ax^2+bx+c=0 las raíces se calculan a partir de la fórmula x=(-b±raiz(b^2-4ac)
 
 ---
 ### EJ22: Cálculo de Raíces 
+````javascript
+Proceso u1_tp1_ej22_funcion_cuadratica
+	Defirnir a, b, c, raiz1, raiz2, discriminante Como Real
+	Escribir "Ingrese el termino cuadratico: "
+	Leer a
+	Escribir "Ingrese termino lineal: "
+	Leer b
+	Escribir "Ingrese termino independiente: "
+	Leer c
+	discriminante=(b^2-4*a*c)^0.5
+	raiz1=-b+discriminante/(2*a)
+	raiz2=-b-discriminante/(2*a)
+	Escribir "Las raices son: ", raiz1, " raiz2 ", raiz2
+FinProceso
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ22: Cálculo de Raíces 
