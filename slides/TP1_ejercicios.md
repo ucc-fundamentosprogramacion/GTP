@@ -1,5 +1,5 @@
 ---
-title: TP1: Estructura Secuencial
+title: TP1 - Estructura Secuencial
 theme: sky
 slideNumber: true
 ---
