@@ -11,7 +11,7 @@ Created by <i class="fab fa-telegram"></i>
 </small>
 
 ---
-## Ejercicio TP1
+## Ejercicios TP2
 <!-- .slide: style="font-size: 0.70em" -->
 <div class="grid2">
     <div>
