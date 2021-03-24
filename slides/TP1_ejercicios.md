@@ -18,11 +18,11 @@ Created by <i class="fab fa-telegram"></i>
         <h3>EJ 1</h3>
         Cuadrado: Perimetro y Área
         <p>
-            <a href="#/3">![Problema](images/problema.png)</a>
-            <a href="#/4">![FlowChart](images/flow_chart.png)</a>
-            <a href="#/5">![Pseudocode](images/pseint_logo.png)</a>
-            <a href="#/6">![C++](images/images/c++.png)</a>
-            <a href="#/7">![FlowChart](images/youtube_logo.png)</a>
+            <a href="#/3"><img src="images/problema.png"></a>
+            <a href="#/4"><img src="images/flow_chart.png"></a>
+            <a href="#/5"><img src="images/pseint_logo.png"></a>
+            <a href="#/6"><img src="images/Cmasmas.png"></a>
+            <a href="#/7"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -31,7 +31,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/8"><img src="images/problema.png"></a>
             <a href="#/10"><img src="images/pseint_logo.png"></a>
-            <a href="#/11"><img src="images/c++.png"></a>
+            <a href="#/11"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -40,7 +40,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/13"><img src="images/problema.png"></a>
             <a href="#/15"><img src="images/pseint_logo.png"></a>
-            <a href="#/16"><img src="images/c++.png"></a>
+            <a href="#/16"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -57,7 +57,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/23"><img src="images/problema.png"></a>
             <a href="#/25"><img src="images/pseint_logo.png"></a>
-            <a href="#/26"><img src="images/c++.png"></a>
+            <a href="#/26"><img src="images/Cmasmas.png"></a>
             <a href="#/27"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -67,7 +67,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/28"><img src="images/problema.png"></a>
             <a href="#/30"><img src="images/pseint_logo.png"></a>
-            <a href="#/31"><img src="images/c++.png"></a>
+            <a href="#/31"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -76,7 +76,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/33"><img src="images/problema.png"></a>
             <a href="#/35"><img src="images/pseint_logo.png"></a>
-            <a href="#/36"><img src="images/c++.png"></a>
+            <a href="#/36"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -85,7 +85,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/38"><img src="images/problema.png"></a>
             <a href="#/40"><img src="images/pseint_logo.png"></a>
-            <a href="#/41"><img src="images/c++.png"></a>
+            <a href="#/41"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -94,7 +94,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/43"><img src="images/problema.png"></a>
             <a href="#/45"><img src="images/pseint_logo.png"></a>
-            <a href="#/46"><img src="images/c++.png"></a>
+            <a href="#/46"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -103,7 +103,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
             <a href="#/50"><img src="images/pseint_logo.png"></a>
-            <a href="#/51"><img src="images/c++.png"></a>
+            <a href="#/51"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -112,7 +112,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/53"><img src="images/problema.png"></a>
             <a href="#/55"><img src="images/pseint_logo.png"></a>
-            <a href="#/56"><img src="images/c++.png"></a>
+            <a href="#/56"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -121,7 +121,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/58"><img src="images/problema.png"></a>
             <a href="#/60"><img src="images/pseint_logo.png"></a>
-            <a href="#/61"><img src="images/c++.png"></a>
+            <a href="#/61"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
 </div>
@@ -136,7 +136,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/63"><img src="images/problema.png"></a>
             <a href="#/65"><img src="images/pseint_logo.png"></a>
-            <a href="#/66"><img src="images/c++.png"></a>
+            <a href="#/66"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -145,7 +145,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/68"><img src="images/problema.png"></a>
             <a href="#/70"><img src="images/pseint_logo.png"></a>
-            <a href="#/71"><img src="images/c++.png"></a>
+            <a href="#/71"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -154,7 +154,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/73"><img src="images/problema.png"></a>
             <a href="#/75"><img src="images/pseint_logo.png"></a>
-            <a href="#/76"><img src="images/c++.png"></a>
+            <a href="#/76"><img src="images/Cmasmas.png"></a>
             <a href="#/77"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -164,7 +164,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/78"><img src="images/problema.png"></a>
             <a href="#/80"><img src="images/pseint_logo.png"></a>
-            <a href="#/81"><img src="images/c++.png"></a>
+            <a href="#/81"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -173,7 +173,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/83"><img src="images/problema.png"></a>
             <a href="#/85"><img src="images/pseint_logo.png"></a>
-            <a href="#/86"><img src="images/c++.png"></a>
+            <a href="#/86"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -182,7 +182,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/88"><img src="images/problema.png"></a>
             <a href="#/90"><img src="images/pseint_logo.png"></a>
-            <a href="#/91"><img src="images/c++.png"></a>
+            <a href="#/91"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -191,7 +191,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/93"><img src="images/problema.png"></a>
             <a href="#/95"><img src="images/pseint_logo.png"></a>
-            <a href="#/96"><img src="images/c++.png"></a>
+            <a href="#/96"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -200,7 +200,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/98"><img src="images/problema.png"></a>
             <a href="#/100"><img src="images/pseint_logo.png"></a>
-            <a href="#/101"><img src="images/c++.png"></a>
+            <a href="#/101"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -209,7 +209,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/103"><img src="images/problema.png"></a>
             <a href="#/105"><img src="images/pseint_logo.png"></a>
-            <a href="#/106"><img src="images/c++.png"></a>
+            <a href="#/106"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -218,7 +218,7 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/108"><img src="images/problema.png"></a>
             <a href="#/110"><img src="images/pseint_logo.png"></a>
-            <a href="#/111"><img src="images/c++.png"></a>
+            <a href="#/111"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
 </div>
@@ -232,7 +232,7 @@ El usuario debe ingresar el lado de un cuadrado. El programa calcula y muestra e
 ---
 #### EJ1: Rectángulo: perímetro y Área
 ![Ej1](images/TP1/ej1.png)
-<a href="#/1"><img src="images/back_indice.png"></a>
+<a href="#/1">![back](images/back_indice.png)</a>
 
 ---
 ## EJ1: Rectángulo: perímetro y Área
@@ -959,7 +959,7 @@ int main(){
 
 ---
 ### EJ16: Coordenadas: Cartesianas a Polares
-Realizar la conversión de coordenadas cartesianas (x, y) a polares (r, Ө). (En C++, recuerda incluir la libreria cmath 
+Realizar la conversión de coordenadas cartesianas (x, y) a polares (r, Ө). (En Cmasmas, recuerda incluir la libreria cmath 
 para emplear las funciones atan y sqrt)
 
 
