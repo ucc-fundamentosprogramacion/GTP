@@ -2,6 +2,47 @@
 title: TP1 - Estructura Secuencial
 theme: sky
 slideNumber: true
+
+<style>
+.reveal section img {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.reveal i.fab {
+    font-family:"Font Awesome 5 Brands";
+    font-style: normal;
+} 
+
+table{
+    font-size: 20px;
+}
+
+div.grid2{
+    display: grid;
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 1ch;
+    grid-column-gap: 1ch;
+}
+
+div.grid2 div{
+    border: white 1px solid;
+    font-size: 0.8em;
+    background: #9fd1ff;
+}
+
+div.grid2 div h3{
+    padding: 0;
+    margin: 0;
+}
+
+div.grid2 div p{
+    padding: 0;
+    margin: 0;
+}
+</style>
+
 ---
 
 # TP1: Estructura Secuencial
@@ -1313,7 +1354,11 @@ int main(){
 ---
 ### EJ22: Cálculo de Raíces 
 ![back](images/back_indice.png)
+
 ![C++](images/Cmasmas.png)
+
 ![Problema](images/problema.png)
+
 ![Pseint](images/pseint_logo.png)
+
 ![Youtube](images/youtube_logo.png)
