@@ -18,8 +18,8 @@ Created by <i class="fab fa-telegram"></i>
         <h3>EJ 1</h3>
         Cuadrado: Perimetro y Área
         <p>
-            <a href="#/3"><img src="images/problema.png"></a>
-            <a href="#/4"><img src="images/flow_chart.png"></a>
+            <a href="#/3">![Problema](images/problema.png)</a>
+            <a href="#/4">![FlowChart](images/flow_chart.png)</a>
             <a href="#/5"><img src="images/pseint_logo.png"></a>
             <a href="#/6"><img src="images/c++.png"></a>
             <a href="#/7"><img src="images/youtube_logo.png"></a>
