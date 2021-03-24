@@ -20,9 +20,9 @@ Created by <i class="fab fa-telegram"></i>
         <p>
             <a href="#/3">![Problema](images/problema.png)</a>
             <a href="#/4">![FlowChart](images/flow_chart.png)</a>
-            <a href="#/5"><img src="images/pseint_logo.png"></a>
-            <a href="#/6"><img src="images/c++.png"></a>
-            <a href="#/7"><img src="images/youtube_logo.png"></a>
+            <a href="#/5">![Pseudocode](images/pseint_logo.png)</a>
+            <a href="#/6">![C++](images/images/c++.png)</a>
+            <a href="#/7">![FlowChart](images/youtube_logo.png)</a>
         </p>
     </div>
     <div>
