@@ -42,6 +42,24 @@ div.grid2 div p{
     padding: 0;
     margin: 0;
 }
+
+div.grid2 div:hover{
+    background: linear-gradient(-45deg, #383bff, #52bfff,#23a6d5,#23d5ab);
+    animation: change 4s ease-in-out infinite;
+    box-shadow: 5px 7px 12px #5e7280;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
 </style>
 
 # TP1: Estructura Secuencial
