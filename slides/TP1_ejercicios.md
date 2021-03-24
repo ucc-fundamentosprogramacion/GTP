@@ -1312,3 +1312,8 @@ int main(){
 
 ---
 ### EJ22: Cálculo de Raíces 
+![back](images/back_indice.png)
+![C++](images/Cmasmas.png)
+![Problema](images/problema.png)
+![Pseint](images/pseint_logo.png)
+![Youtube](images/youtube_logo.png)
