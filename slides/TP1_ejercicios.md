@@ -3,6 +3,7 @@ title: TP1 - Estructura Secuencial
 theme: sky
 slideNumber: true
 
+---
 <style>
 .reveal section img {
     background: none !important;
@@ -42,8 +43,6 @@ div.grid2 div p{
     margin: 0;
 }
 </style>
-
----
 
 # TP1: Estructura Secuencial
 <small>
