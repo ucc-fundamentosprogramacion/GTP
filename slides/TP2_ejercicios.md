@@ -3,6 +3,63 @@ title: Estructuras Condicionales
 theme: sky
 slideNumber: true
 ---
+<style>
+.reveal section img {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.reveal i.fab {
+    font-family:"Font Awesome 5 Brands";
+    font-style: normal;
+} 
+
+table{
+    font-size: 20px;
+}
+
+div.grid2{
+    display: grid;
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 1ch;
+    grid-column-gap: 1ch;
+}
+
+div.grid2 div{
+    border: white 1px solid;
+    font-size: 0.8em;
+    background: #9fd1ff;
+}
+
+div.grid2 div h3{
+    padding: 0;
+    margin: 0;
+}
+
+div.grid2 div p{
+    padding: 0;
+    margin: 0;
+}
+
+div.grid2 div:hover{
+    background: linear-gradient(-45deg, #383bff, #52bfff,#23a6d5,#23d5ab);
+    animation: change 4s ease-in-out infinite;
+    box-shadow: 5px 7px 12px #5e7280;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+</style>
 
 ## TP2: Estructuras Condicionales
 Created by [edme88]("https://t.me/edme88")
@@ -1188,7 +1245,7 @@ int main(){
 #### EJ21: f(T) con T, OP
 Recibir como entrada 2 valores: T y OP. Calcule el resultado de la siguiente función: 
 
-![funcion de T](images/TP2/f(T).png)
+![f de T](images/TP2/fT.png)
 
 <a href="#/3"><img src="images/back_indice.png"></a>
 
@@ -1211,7 +1268,7 @@ Recibir como entrada 2 valores: T y OP. Calcule el resultado de la siguiente fun
 ---
 #### EJ22: f(Y)
 El usuario ingresa un valor Y. El programa muestra como salida la solución de la ecuación.
-![Función de Y](images/TP2/f(Y).png)
+![Función de Y](images/TP2/fY.png)
 
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
