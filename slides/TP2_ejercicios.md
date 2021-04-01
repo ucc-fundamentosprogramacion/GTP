@@ -1308,7 +1308,6 @@ Permita leer un número desde el teclado y determinar si es positivo, negativo o
 
 ---
 #### EJ23: Positivo, Negativo y Cero
-#### EJ20: Nuevo Sueldo
 ````javascript
 #include <iostream>
 using namespace std;
