@@ -713,6 +713,22 @@ Permite ingresar 12 números por teclado. Cuenta la cantidad de veces que se ing
 </script></section><section  data-markdown><script type="text/template">
 #### EJ11: Cantidad 0
 ````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    int nro, contceros=0, contnum;
+
+    for (contnum=0;contnum<12;contnum++){
+        cout<<"Ingrese un numero ";
+        cin>>nro;
+        if (nro == 0)
+         {
+           contceros++;
+          }
+    }
+   cout<<"La cantidad de ceros encontrada fue "<<contceros<<endl;
+}
 ````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
@@ -737,7 +753,30 @@ Determinar el mayor y el menor entre diez números enteros ingresados por teclad
 </script></section><section  data-markdown><script type="text/template">
 #### EJ12: Mayor y Menor 
 ````javascript
+#include <iostream>
+using namespace std;
 
+int main(){
+    int nro,cnro, mayor, menor;
+    for (cnro=1;cnro<=10;cnro++){
+       cout<<"Ingrese un numero ";
+       cin>>nro;
+       if (cnro==1){
+         mayor=nro;
+         menor=nro;
+       }
+       else{
+        if (mayor<nro){
+            mayor=nro;
+        }
+        if (menor>nro){
+            menor=nro;
+        }
+       }
+     }
+     cout<<"El numero mayor de la serie fue "<<mayor<<endl;
+     cout<<"EL numero menor de la serie fue "<<menor<<endl;
+}
 ````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
@@ -764,6 +803,31 @@ Leer diez números y determinar la cantidad de ceros, positivos y negativos.
 </script></section><section  data-markdown><script type="text/template">
 #### EJ13: + - 0 
 ````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+  int nro,c, contceros=0, contpos=0, contneg=0;
+
+  for(c=1;c<=10;c++){
+    cout<<"Ingrese un numero ";
+    cin>>nro;
+    if (nro>0){
+       contpos++;
+    }
+    else{
+      if (nro<0){
+        contneg++;
+      }
+      else{
+        contceros++;
+      }
+     }
+  }
+  cout<<"La centidad de positivos fue "<<contpos<<endl;
+  cout<<"La cantidad de negativos fue "<<contneg<<endl;
+  cout<<"La cantidad de ceros fue "<<contceros<<endl;
+}
 ````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
@@ -888,6 +952,27 @@ Permite al usuario ingresar un número. Verifica si el número es o no primo. Im
 
 </script></section><section  data-markdown><script type="text/template">
 #### EJ18: Primos
+````javascript
+#include <iostream>
+using namespace std;
+int main(){
+    int N,cantdiv=0;
+    cout<<"Ingrese el numero que desea comprobar ";
+    cin>>N;
+    for (int i=2;i<=N/2;i++){
+        if (N % i == 0 ){
+            cantdiv++;
+        }
+    }
+    if (cantdiv == 0){
+        cout<<"El numero "<<N<<" es un numero primo"<<endl;
+    }
+    else{
+        cout<<"El numero "<<N<<" no es un numero primo"<<endl;
+    }
+}
+````
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
@@ -911,6 +996,23 @@ El programa debe imprimir los términos de la siguiente serie: 2,5,7,10,12,15,17
 </script></section><section  data-markdown><script type="text/template">
 #### EJ19: Serie 2,5,7,10..
 ````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+   int Nserie=2,cnum=0;
+   cout<<"La serie es : "<<endl;
+   while (Nserie<=100){
+      cout<<Nserie<<endl;
+      cnum++;
+      if (cnum % 2 == 0){
+         Nserie+=2; //Nserie=Nserie+2;
+      }
+      else{
+         Nserie+=3; //Nserie=Nserie+3;
+      }
+   }
+}
 ````
 
 <a href="#/3"><img src="images/back_indice.png"></a>
@@ -962,6 +1064,23 @@ El usuario debe poder ingresar un número N, y el programa muestra como salida e
 
 </script></section><section  data-markdown><script type="text/template">
 #### EJ21: Serie 1-1/2+1/3-...
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    float valor=1;
+    int N, signo=-1;
+    cout<<"ingrese el valor de N ";
+    cin>>N;
+    for(int den=2;den<=N; den++){
+         valor= valor+((1./den)*signo);
+         signo=signo*(-1);
+    }
+    cout<<"El valor de la serie es "<<valor;
+}
+````
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
@@ -991,6 +1110,33 @@ pantalla la cantidad de números de la sucesión de Fibonacci correspondiente.
 
 </script></section><section  data-markdown><script type="text/template">
 #### EJ22: Fibonacci
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+  int ns,ns1,ns2,n;
+  do{
+  cout<<"Ingrese la cantidad de terminos a mostrar ";
+  cin>>n;
+  if (n<3){
+    cout<<"El valor ingresado debe ser mayor o igual a 3. Ingrese nuevamente"<<endl;
+    }
+  }
+  while (n<3);
+  ns1=0;
+  ns2=1;
+  cout<<ns1<<endl;
+  cout<<ns2<<endl;
+  for(int i=1;i<=n-2;i++){
+    ns=ns1+ns2;
+    cout<<ns<<endl;
+    ns1=ns2;
+    ns2=ns;
+  }
+}
+````
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
@@ -1003,7 +1149,6 @@ Según la “Conjetura de Ulam o Collatz” se puede obtener una serie de númer
 cualquier entero positivo. Si es par dividirlo por 2, si es impar multiplicarlo por 3 y agregarle 1. El programa debe 
 dejar al usuario introducir un número para comenzar, y debe imprimir por pantalla todos los números de la serie hasta llegar a 1.
 Ej: Si num=6, los números son 6, 3, 10, 5, 16, 8, 4, 2, 1
-
 
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
@@ -1018,6 +1163,32 @@ Ej: Si num=6, los números son 6, 3, 10, 5, 16, 8, 4, 2, 1
 </script></section><section  data-markdown><script type="text/template">
 #### EJ23: Conjetura Ulam 
 ````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+   int semilla;
+
+   do{
+   cout<<"Ingrese la semilla para comenzar ";
+   cin>>semilla;
+   if (semilla<1){
+    cout<<"El valor ingresado no es correcto. Ingrese nuevamente"<<endl;
+    }
+   }
+   while (semilla<1);
+
+   cout<<semilla<<endl;
+   while(semilla>1){
+    if (semilla%2==0){
+        semilla=semilla/2;
+    }
+    else{
+        semilla=semilla*3+1;
+    }
+    cout<<semilla<<endl;
+    }
+}
 ````
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
@@ -1091,6 +1262,25 @@ La diferencia entre la serie y Pi debe ser menor a 0,0005. El programa debe impr
 </script></section><section  data-markdown><script type="text/template">
 #### EJ26: Aproximación Pi 
 ````javascript
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+  float pi=4,dif=fabs(pi-M_PI);
+  int den=3,signo=-1, cvueltas=0;
+  while(dif>0.005){
+      pi=pi+(4.0/den)*signo;
+      signo=signo*(-1);
+      den=den+2;
+      dif=fabs(pi-M_PI);
+      cvueltas++; //cvueltas=cvueltas+1
+  }
+  cout<<"Valor calculado de pi "<<pi<<endl;
+  cout<<"Valor real de pi "<<M_PI<<endl;
+  cout<<"Las iteraciones necesarias fueron "<<cvueltas<<endl;
+}
 ````
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
@@ -1127,6 +1317,50 @@ a ‘i’,’n’ ó ‘l’, el programa muestra el costo de todas las llamadas
 </script></section><section  data-markdown><script type="text/template">
 #### EJ27: Llamada telefonica
 ````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    char tipo;
+    int minutos,conllocal=0;
+    float costo,costoTotal=0;
+    do{
+        cout<<"Ingrese i=Internacional, n=Nacional, l=Local o s=Salir ";
+        cin>>tipo;
+        if (tipo != 's'){
+           if (tipo=='i' || tipo=='n'){
+             cout<<"Ingrese la cantidad de minutos ";
+             cin>>minutos;
+             if (tipo=='i'){
+               costo=7.59;
+               if(minutos>3)
+                {
+                 costo=costo+(minutos-3)*3.03;
+                }
+             }
+             else{
+               costo=1.20;
+               if (minutos>3){
+                  costo=costo+(minutos-3)*0.48;
+                }
+             }
+            }
+            else{
+               conllocal++;
+               if (conllocal>50){
+                   costo=0.60;
+               }
+               else{
+                   costo=0;
+               }
+            }
+        cout<<"Esta llamada cuesta "<<costo<<endl;
+        costoTotal=costoTotal+costo;
+        }
+    }
+    while (tipo!='s');
+    cout<<"El costo total de llamadas es "<<costoTotal<<endl;
+}
 ````
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
@@ -1207,130 +1441,333 @@ Realizar la división entre dos enteros como diferencias sucesivas, indicando el
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ31: Verificar cuadrante
-Diseñar un algoritmo que permita determinar si un punto de coordenadas (X,Y), está en un cuadrante ingresado en forma 
-de número entero. El programa debe mostrar por pantalla el valor 0 si es falso ó 1 si es verdadero. 
-Tanto las coordenadas del punto, como el cuadrante, deben ser leídos desde teclado.
+#### EJ31: Potencia
+Realizar la potencia como productos sucesivos.
 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ31: Verificar cuadrante
+#### EJ31: Potencia
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ31: Verificar cuadrante
+#### EJ31: Potencia
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ31: Verificar cuadrante
+#### EJ31: Potencia
 ````javascript
-#include <iostream>
-using namespace std;
-
-int main(){
-	float  coorX, coorY;
-	int Cuadrante;
-	cout<<"Ingrese el valor de la coordenada X ";
-	cin>>coorX;
-	cout<<"Ingrese el valor de la coordenada Y";
-	cin>>coorY;
-	cout<<"Ingrese el cuadrante ";
-	cin>>Cuadrante;
-	if (coorX>0 && coorY>0 && Cuadrante==1){
-		  cout<<"1"<<endl;
-    }
-    else{
- 		if (coorX>0 && coorY<0 && Cuadrante==4){
-			cout<<"1"<<endl;
-		}
-		else{
-			if (coorX<0 && coorY>0 && Cuadrante==2){
-              cout<<"1"<<endl;
-            }
-            else{
-				if (coorX<0 && coorY<0 && Cuadrante==3){
-					cout<<"1"<<endl;
-                }
-                else{
-					cout<<"0"<<endl;
-                }
-		    }
-        }
-    }
-}
 ````
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ31: Verificar cuadrante
+#### EJ31: Potencia
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ32: 24hs a 12am/pm
-Escribir un programa que lea la hora de un día de notación de 24 horas y la respuesta en notación de 12 horas. 
-(Ej. 13:45, la salida es 1:45 PM). Le pedirá al usuario que ingrese 5 caracteres de la forma 05:00.
- 
+#### EJ32: Cuadrado Cubo 
+Calcular el cuadrado y el cubo de una serie de números positivos , ingresando los datos desde una terminal. La serie 
+termina cuando se ingresa el número cero.
+
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ32: 24hs a 12am/pm 
+#### EJ32: Cuadrado Cubo 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ32: 24hs a 12am/pm 
+#### EJ32: Cuadrado Cubo 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ32: 24hs a 12am/pm
+#### EJ32: Cuadrado Cubo 
 ````javascript
 
 ````
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ32: 24hs a 12am/pm 
+#### EJ32: Cuadrado Cubo 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ33: Año Bisiesto
-Escribir un programa que determine si un año es bisiesto. Recuerde que un año es bisiesto si es múltiplo de 4 (Ej. 1984). 
-Sin embargo, los años múltiplos de 100 sólo son bisiestos cuando a la vez son múltiples de 400 (Ej. 1800 no es bisiesto, pero 2000 si).  
+#### EJ33: Suma-Producto 
+Calcular para diez pares de números leídos desde una terminal, la suma y el producto de dichos pares.
 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ33: Año Bisiesto 
+#### EJ33: Suma-Producto 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ33: Año Bisiesto 
+#### EJ33: Suma-Producto 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ33: Año Bisiesto
+#### EJ33: Suma-Producto 
 ````javascript
-#include <iostream>
-using namespace std;
-
-int main(){
-	int anio;
-	cout<< "Ingresar el valor del anio";
-	cin>>anio;
-	if ((anio%4 == 0 && anio%100!=0) || anio%400 == 0){
-		cout<<"El año es bisiesto"<<endl;
-	}
-    else{
-        cout<<"El año no es bisiesto"<<endl;
-    }
-}
 ````
 
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
-#### EJ33: Año Bisiesto 
-<a href="#/4"><img src="images/back_indice.png"></a></script></section></div>
+#### EJ33: Suma-Producto
+<a href="#/4"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ34: Piezas
+Se debe realizar el control de calidad en una producción de piezas, si se consideran como aptas todas las piezas que 
+miden entre 1,15 y 1,20. Calcular la cantidad de piezas aptas, no aptas, y su porcentaje. El procesa finaliza cuando 
+se ingresa una longitud nula.
+
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ34: Piezas
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ34: Piezas
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ34: Piezas
+````javascript
+````
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ34: Piezas
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ35: 10,20,30,40
+Se ingresa una serie de números enteros. Determinar cuántas veces se presentan las números 10, 20, 30 y 40 y la 
+cantidad de números ingresados distintos de los anteriores. El proceso finaliza cuando se ingresa el número 99.
+
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ35: 10,20,30,40
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ35: 10,20,30,40
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ35: 10,20,30,40
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ35: 10,20,30,40
+<a href="#/2"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ36: A y B
+Leer un par de valores enteros A y B. Generar e imprimir los números comprendidos entre ellos, la cantidad de números y su sumatoria.
+````javascript
+Ingresar número A: 3
+Ingresar número B: 8
+Los números comprendidos entre ellos es:
+4
+5
+6
+7
+La cantidad de números es: 4
+La sumatoria de números es: 22
+````
+
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ36: A y B
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ36: A y B
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ36: A y B
+````javascript
+````
+
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ36: A y B
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ37: A, B y C 
+Leer 3 valores enteros distintos A, B y C. Imprimir los números comprendidos entre el menor y el doble del mayor; 
+sumándole sucesivamente al menor el restante.
+
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ37: A, B y C
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ37: A, B y C
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ37: A, B y C
+````javascript
+````
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ37: A, B y C 
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ38: N pares X,Y 
+Leer N pares de valores X e Y (N ingresado como dato). Calcular cada una de las siguientes expresiones:
+
+![Funciones X Y](images/TP3/EJ38_NparesXY.png)
+
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ38: N pares X,Y 
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ38: N pares X,Y 
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ38: N pares X,Y 
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ38: N pares X,Y 
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ39: MCD
+Calcular el máximo común divisor (MCD) entre dos enteros, mediante el algoritmo de Euclides. (El MCD entre dos números 
+enteros se lo obtiene restando del mayor el menor y repetir el proceso entre el resultado de la resta y el menos, hasta 
+que de cero siendo el MCD el último resultado). Ej. El MCD entre 81 y 36 será:
+
+![MCD](images/TP3/EJ39_MCD.png)
+
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ39: MCD
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ39: MCD
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ39: MCD
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ39: MCD
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ39: MCD
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ40: Funciones 
+Escribir un algoritmo que permita tabular las siguientes funciones, para -5<=x<=5y un incremento de 0,5:
+
+![Funciones](images/TP3/EJ40_funciones.png)
+
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ40: Funciones
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ40: Funciones
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ40: Funciones
+````javascript
+````
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ40: Funciones
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ41: Max y Min 
+Diseñar un algoritmo que permita calcular los valores máximos y mínimos relativos a un intervalo dado, 
+en cada uno de los siguientes casos:
+
+y(x)=x+cos(x)
+y(x)=3x^2-x^3
+y(x)=x sen(x)
+
+El programa debe leer los extremos del intervalo y la cantidad de partes en que se dividirá al intervalo para valuar la función.
+
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ41: Max y Min 
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ41: Max y Min  
+````javascript
+````
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ41: Max y Min 
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ42: Dibujo
+Genere el siguiente dibujo:
+````javascript
+**********
+*********
+********
+*******
+******
+*****
+****
+***
+**
+*
+````
+
+<a href="#/3"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ42: Dibujo
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ42: Dibujo
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ42: Dibujo
+````javascript
+````
+<a href="#/3"><img src="images/back_indice.png"></a> 
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ42: Dibujo
+<a href="#/3"><img src="images/back_indice.png"></a>  
+</script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>
