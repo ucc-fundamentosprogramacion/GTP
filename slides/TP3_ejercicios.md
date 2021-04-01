@@ -85,34 +85,28 @@ Created by [edme88]("https://t.me/edme88")
         <h3>EJ 2</h3>
         Suma 1 a 10
         <p>
-            <a href="#/13"><img src="images/problema.png"></a>
-            <a href="#/17"><img src="images/Cmasmas.png"></a>
+            <a href="#/9"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 3</h3>
         Gastos Viaje
         <p>
-            <a href="#/18"><img src="images/problema.png"></a>
-            <a href="#/21"><img src="images/Cmasmas.png"></a>
-            <a href="#/22"><img src="images/youtube_logo.png"></a>
+            <a href="#/13"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 4</h3>
         Promedio Notas
         <p>
-            <a href="#/23"><img src="images/problema.png"></a>
-            <a href="#/26"><img src="images/Cmasmas.png"></a>
+            <a href="#/18"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 5</h3>
         Tabla multiplicar
         <p>
-            <a href="#/28"><img src="images/problema.png"></a>
-            <a href="#/31"><img src="images/Cmasmas.png"></a>
-            <a href="#/32"><img src="images/youtube_logo.png"></a>
+            <a href="#/23"><img src="images/problema.png"></a>
         </p>
     </div>
 </div>
@@ -123,8 +117,7 @@ Created by [edme88]("https://t.me/edme88")
         <h3>EJ 6</h3>
         Suma 1 al 10
         <p>
-            <a href="#/33"><img src="images/problema.png"></a>
-            <a href="#/36"><img src="images/Cmasmas.png"></a>
+            <a href="#/28"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
@@ -132,23 +125,20 @@ Created by [edme88]("https://t.me/edme88")
         100 pares
         <p>
             <a href="#/33"><img src="images/problema.png"></a>
-            <a href="#/36"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
             <h3>EJ 8</h3>
             Unidades Producto
             <p>
-                <a href="#/33"><img src="images/problema.png"></a>
-                <a href="#/36"><img src="images/Cmasmas.png"></a>
+                <a href="#/38"><img src="images/problema.png"></a>
             </p>
         </div>
     <div>
         <h3>EJ 9</h3>
         Aumento de Sueldo
         <p>
-            <a href="#/38"><img src="images/problema.png"></a>
-            <a href="#/41"><img src="images/Cmasmas.png"></a>
+            <a href="#/43><img src="images/problema.png"></a>
         </p>
     </div>
 </div>
@@ -163,7 +153,6 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 a 10
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
-            <a href="#/51"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -180,7 +169,6 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/58"><img src="images/problema.png"></a>
             <a href="#/61"><img src="images/Cmasmas.png"></a>
-            <a href="#/62"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -203,7 +191,6 @@ Created by [edme88]("https://t.me/edme88")
         Notas: A, D, P
         <p>
             <a href="#/73"><img src="images/problema.png"></a>
-            <a href="#/76"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -211,8 +198,6 @@ Created by [edme88]("https://t.me/edme88")
         Par, Impar, Nulo
         <p>
             <a href="#/78"><img src="images/problema.png"></a>
-            <a href="#/81"><img src="images/Cmasmas.png"></a>
-            <a href="#/82"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -220,7 +205,6 @@ Created by [edme88]("https://t.me/edme88")
         Sueldos
         <p>
             <a href="#/83"><img src="images/problema.png"></a>
-            <a href="#/86"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -250,7 +234,6 @@ Created by [edme88]("https://t.me/edme88")
         Cant. Ventas
         <p>
             <a href="#/98"><img src="images/problema.png"></a>
-            <a href="#/101"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -258,6 +241,7 @@ Created by [edme88]("https://t.me/edme88")
         Serie 1-1/2+1/3-...
         <p>
             <a href="#/103"><img src="images/problema.png"></a>
+            <a href="#/106"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -265,6 +249,7 @@ Created by [edme88]("https://t.me/edme88")
         Fibonacci
         <p>
             <a href="#/108"><img src="images/problema.png"></a>
+            <a href="#/112"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -280,7 +265,6 @@ Created by [edme88]("https://t.me/edme88")
         Cant. Votos
         <p>
             <a href="#/119"><img src="images/problema.png"></a>
-            <a href="#/121"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -288,7 +272,6 @@ Created by [edme88]("https://t.me/edme88")
         Estación metereologica
         <p>
             <a href="#/123"><img src="images/problema.png"></a>
-            <a href="#/126"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -312,7 +295,6 @@ Created by [edme88]("https://t.me/edme88")
         Pares 2 al 200
         <p>
             <a href="#/138"><img src="images/problema.png"></a>
-            <a href="#/141"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -320,15 +302,13 @@ Created by [edme88]("https://t.me/edme88")
         Producto
         <p>
             <a href="#/143"><img src="images/problema.png"></a>
-            <a href="#/146"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 30</h3>
         División
         <p>
-            <a href="#/143"><img src="images/problema.png"></a>
-            <a href="#/146"><img src="images/Cmasmas.png"></a>
+            <a href="#/148"><img src="images/problema.png"></a>
         </p>
     </div>
 </div>
@@ -342,16 +322,14 @@ Created by [edme88]("https://t.me/edme88")
         <h3>EJ 31</h3>
         Potencia
         <p>
-            <a href="#/148"><img src="images/problema.png"></a>
-            <a href="#/151"><img src="images/Cmasmas.png"></a>
+            <a href="#/153"><img src="images/problema.png"></a>
         </p>
     </div>
-    <div>
+    <div> 
         <h3>EJ 32</h3>
         Cuadrado Cubo
         <p>
-            <a href="#/153"><img src="images/problema.png"></a>
-            <a href="#/156"><img src="images/Cmasmas.png"></a>
+            <a href="#/158"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
@@ -359,79 +337,69 @@ Created by [edme88]("https://t.me/edme88")
         Suma-Producto
         <p>
             <a href="#/163"><img src="images/problema.png"></a>
-            <a href="#/166"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 34</h3>
         Piezas
         <p>
-            <a href="#/148"><img src="images/problema.png"></a>
-            <a href="#/151"><img src="images/Cmasmas.png"></a>
+            <a href="#/168"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 35</h3>
         10,20,30,40
         <p>
-            <a href="#/153"><img src="images/problema.png"></a>
-            <a href="#/156"><img src="images/Cmasmas.png"></a>
+            <a href="#/173"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 36</h3>
         A y B
         <p>
-            <a href="#/163"><img src="images/problema.png"></a>
-            <a href="#/166"><img src="images/Cmasmas.png"></a>
+            <a href="#/178"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 37</h3>
         A, B y C
         <p>
-            <a href="#/148"><img src="images/problema.png"></a>
-            <a href="#/151"><img src="images/Cmasmas.png"></a>
+            <a href="#/183"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 38</h3>
         N pares X,Y
         <p>
-            <a href="#/153"><img src="images/problema.png"></a>
-            <a href="#/156"><img src="images/Cmasmas.png"></a>
+            <a href="#/188"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 39</h3>
         MCD
         <p>
-            <a href="#/163"><img src="images/problema.png"></a>
-            <a href="#/166"><img src="images/Cmasmas.png"></a>
+            <a href="#/193"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 40</h3>
         Funciones
         <p>
-            <a href="#/148"><img src="images/problema.png"></a>
-            <a href="#/151"><img src="images/Cmasmas.png"></a>
+            <a href="#/199"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 41</h3>
         Max y Min
         <p>
-            <a href="#/153"><img src="images/problema.png"></a>
-            <a href="#/156"><img src="images/Cmasmas.png"></a>
+            <a href="#/204"><img src="images/problema.png"></a>
         </p>
     </div>
     <div>
         <h3>EJ 42</h3>
         Dibujo
         <p>
-            <a href="#/163"><img src="images/problema.png"></a>
-            <a href="#/166"><img src="images/Cmasmas.png"></a>
+            <a href="#/208"><img src="images/problema.png"></a>
         </p>
     </div>
 </div>
@@ -458,7 +426,6 @@ siguientes diagramas de flujo, resuelven correctamente lo pedido. En caso contra
 
 ---
 #### EJ2: Suma 1 a 10
-<!-- .slide: style="font-size: 0.50em" -->
 Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -525,7 +492,6 @@ calculará el promedio de las notas.
 
 ---
 #### EJ4: Promedio Notas
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4eEfMvFH2fs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a href="#/1"><img src="images/back_indice.png"></a>
 
@@ -770,7 +736,6 @@ int main(){
 
 ---
 #### EJ12: Mayor y Menor 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yfITZKFtpfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a href="#/2"><img src="images/back_indice.png"></a>
 
@@ -901,6 +866,7 @@ Ingresar 8 números por teclado. Contabilizar la cantidad de pares, impares y nu
 ---
 #### EJ17: Sueldos
 Ingresar la cantidad de trabajadores de la empresa. Posteriormente, ingresar sus sueldos. Calcular el monto que la empresa invierte en sueldos.
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -923,6 +889,7 @@ Ingresar la cantidad de trabajadores de la empresa. Posteriormente, ingresar sus
 
 ---
 #### EJ18: Primos
+<!-- .slide: style="font-size: 0.80em" -->
 Permite al usuario ingresar un número. Verifica si el número es o no primo. Imprime por pantalla el texto “Es primo” ó “No es Primo.
 1. Desarrolle Solución 1: Verificar que solo tiene 2 divisores (1 y sí mismo)
 2. Modifique el código de forma tal, que si el número NO es primo, muestre en qué números es divisible.
@@ -1278,6 +1245,7 @@ int main(){
 
 ---
 #### EJ27: Llamada telefonica
+<!-- .slide: style="font-size: 0.70em" -->
 Para calcular el precio de unas llamadas telefónicas se posee la siguiente información:”
 * Internacional
  * 3 primeros minutos $7.59
@@ -1408,25 +1376,25 @@ Realizar el producto entre dos enteros como sumas sucesivas.
 #### EJ30: División
 Realizar la división entre dos enteros como diferencias sucesivas, indicando el cociente y el resto de la división.
 
-<a href="#/4"><img src="images/back_indice.png"></a>
+<a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ30: División
-<a href="#/4"><img src="images/back_indice.png"></a>
+<a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ30: División
-<a href="#/4"><img src="images/back_indice.png"></a>
+<a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ30: División
 ````javascript
 ````
-<a href="#/4"><img src="images/back_indice.png"></a>
+<a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ30: División
-<a href="#/4"><img src="images/back_indice.png"></a>
+<a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ31: Potencia
@@ -1611,7 +1579,7 @@ sumándole sucesivamente al menor el restante.
 
 ---
 #### EJ37: A, B y C 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ38: N pares X,Y 
@@ -1619,23 +1587,23 @@ Leer N pares de valores X e Y (N ingresado como dato). Calcular cada una de las 
 
 ![Funciones X Y](images/TP3/EJ38_NparesXY.png)
 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ38: N pares X,Y 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ38: N pares X,Y 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ38: N pares X,Y 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ38: N pares X,Y 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ39: MCD
@@ -1645,27 +1613,27 @@ que de cero siendo el MCD el último resultado). Ej. El MCD entre 81 y 36 será:
 
 ![MCD](images/TP3/EJ39_MCD.png)
 
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ39: MCD
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ39: MCD
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ39: MCD
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ39: MCD
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ39: MCD
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ40: Funciones 
@@ -1673,25 +1641,25 @@ Escribir un algoritmo que permita tabular las siguientes funciones, para -5<=x<=
 
 ![Funciones](images/TP3/EJ40_funciones.png)
 
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ40: Funciones
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ40: Funciones
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ40: Funciones
 ````javascript
 ````
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ40: Funciones
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ41: Max y Min 
@@ -1704,21 +1672,21 @@ y(x)=x sen(x)
 
 El programa debe leer los extremos del intervalo y la cantidad de partes en que se dividirá al intervalo para valuar la función.
 
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ41: Max y Min 
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ41: Max y Min  
 ````javascript
 ````
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ41: Max y Min 
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ42: Dibujo
@@ -1736,22 +1704,22 @@ Genere el siguiente dibujo:
 *
 ````
 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ42: Dibujo
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ42: Dibujo
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ42: Dibujo
 ````javascript
 ````
-<a href="#/3"><img src="images/back_indice.png"></a> 
+<a href="#/4"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ42: Dibujo
-<a href="#/3"><img src="images/back_indice.png"></a>  
+<a href="#/4"><img src="images/back_indice.png"></a>  
