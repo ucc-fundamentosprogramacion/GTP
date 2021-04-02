@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Programación en C++</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/sky.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./_assets/slides/css/filminas.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+<style>
+.reveal section img {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.reveal i.fab {
+    font-family:"Font Awesome 5 Brands";
+    font-style: normal;
+} 
+
+table{
+    font-size: 20px;
+}
+
+div.grid2{
+    display: grid;
+    /*grid-template-columns: auto auto auto;*/
+    grid-template-columns: 33% 33% 33%;
+    grid-row-gap: 1ch;
+    grid-column-gap: 1ch;
+}
+
+div.grid2 div{
+    border: white 1px solid;
+    font-size: 0.8em;
+    background: #9fd1ff;
+}
+
+div.grid2 div h3{
+    padding: 0;
+    margin: 0;
+}
+
+div.grid2 div p{
+    padding: 0;
+    margin: 0;
+}
+
+div.grid2 div:hover{
+    background: linear-gradient(-45deg, #383bff, #52bfff,#23a6d5,#23d5ab);
+    animation: change 4s ease-in-out infinite;
+    box-shadow: 5px 7px 12px #5e7280;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+</style>
+
+## TP4: Programación en C++
+Created by [edme88]("https://t.me/edme88")
+
+</script></section><section  data-markdown><script type="text/template">
+## Ejercicios TP4
+#### Ejercicios Introductorios
+<!-- .slide: style="font-size: 0.70em" -->
+<div class="grid2">
+    <div>
+        <h3>EJ 1</h3>
+        Hola Mundo!
+        <p>
+            <a href="#/2"><img src="images/problema.png"></a>
+            <a href="#/4"><img src="images/Cmasmas.png"></a>
+        </p>
+    </div>
+    <div>
+        <h3>EJ 2</h3>
+        Pez
+        <p>
+            <a href="#/6"><img src="images/problema.png"></a>
+            <a href="#/8"><img src="images/Cmasmas.png"></a>
+        </p>
+    </div>
+    <div>
+        <h3>EJ 3</h3>
+        Espada
+        <p>
+            <a href="#/10"><img src="images/problema.png"></a>
+            <a href="#/13"><img src="images/Cmasmas.png"></a>
+        </p>
+    </div>
+</div>
+
+#### Estructuras
+<div class="grid2">
+    <a href="TP1_ejercicios.html">
+    <div>
+        <h3>Estructura Secuencial <br> TP 1</h3>
+    </div>
+    </a>
+    <a href="TP1_ejercicios.html">
+    <div>
+        <h3>Estructuras de Decisión o Selección <br> TP 2</h3>
+    </div>
+    </a>
+    <a href="TP1_ejercicios.html">
+    <div>
+            <h3>Estructuras de Iteración o Repetición <br> TP 3</h3>
+        </div>
+    </a>
+</div>
+
+</script></section><section  data-markdown><script type="text/template">
+### EJ1: Hola Mundo! 
+Realizar un programa que genere (imprima) la siguiente salida por pantalla: Hola Mundo!!!
+
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+### EJ1: Hola Mundo! 
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+### EJ1: Hola Mundo! 
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout<<"Hola Mundo!"<<endl;
+}
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+### EJ1: Hola Mundo! 
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ2: Pez
+Realizar un programa que genere (imprima) la siguiente salida por pantalla (pez): ><(((('>
+
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ2: Pez
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ2: Pez
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout<<"><(((('>"<<endl;
+}
+````
+
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ2: Pez
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ3: Espada
+Realizar un programa que genere (imprima) la siguiente salida por pantalla (espada): (===||:::::::::::::::>
+
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ3: Espada
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ3: Espada
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ3: Espada
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout<<"(===||:::::::::::::::>"<<endl;
+}
+````
+<a href="#/1"><img src="images/back_indice.png"></a>
+
+</script></section><section  data-markdown><script type="text/template">
+#### EJ3: Espada
+<a href="#/1"><img src="images/back_indice.png"></a>
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"slideNumber":true}, queryOptions);
+    </script>
+
+    <script src="./_assets/slides/js/init.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
