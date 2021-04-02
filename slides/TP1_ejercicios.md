@@ -63,10 +63,8 @@ div.grid2 div:hover{
 </style>
 
 # TP1: Estructura Secuencial
-<small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")
-</small>
 
 ---
 ## Ejercicio TP1
