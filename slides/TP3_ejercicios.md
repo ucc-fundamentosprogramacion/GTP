@@ -86,6 +86,7 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 a 10
         <p>
             <a href="#/9"><img src="images/problema.png"></a>
+            <a href="#/12"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -100,6 +101,7 @@ Created by [edme88]("https://t.me/edme88")
         Promedio Notas
         <p>
             <a href="#/18"><img src="images/problema.png"></a>
+            <a href="#/22"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -107,6 +109,7 @@ Created by [edme88]("https://t.me/edme88")
         Tabla multiplicar
         <p>
             <a href="#/23"><img src="images/problema.png"></a>
+            <a href="#/27"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
 </div>
@@ -125,6 +128,7 @@ Created by [edme88]("https://t.me/edme88")
         100 pares
         <p>
             <a href="#/33"><img src="images/problema.png"></a>
+            <a href="#/37"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -138,7 +142,8 @@ Created by [edme88]("https://t.me/edme88")
         <h3>EJ 9</h3>
         Aumento de Sueldo
         <p>
-            <a href="#/43><img src="images/problema.png"></a>
+            <a href="#/43"><img src="images/problema.png"></a>
+            <a href="#/43"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
 </div>
@@ -153,6 +158,7 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 a 10
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
+            <a href="#/52"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -161,6 +167,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/53"><img src="images/problema.png"></a>
             <a href="#/56"><img src="images/Cmasmas.png"></a>
+            <a href="#/57"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -169,6 +176,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/58"><img src="images/problema.png"></a>
             <a href="#/61"><img src="images/Cmasmas.png"></a>
+            <a href="#/62"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -184,6 +192,7 @@ Created by [edme88]("https://t.me/edme88")
         Factorial
         <p>
             <a href="#/68"><img src="images/problema.png"></a>
+            <a href="#/72"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -212,6 +221,7 @@ Created by [edme88]("https://t.me/edme88")
         Primos
         <p>
             <a href="#/88"><img src="images/problema.png"></a>
+            <a href="#/92"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
 </div>
@@ -227,6 +237,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/93"><img src="images/problema.png"></a>
             <a href="#/96"><img src="images/Cmasmas.png"></a>
+            <a href="#/97"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -234,6 +245,7 @@ Created by [edme88]("https://t.me/edme88")
         Cant. Ventas
         <p>
             <a href="#/98"><img src="images/problema.png"></a>
+            <a href="#/102"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -242,6 +254,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/103"><img src="images/problema.png"></a>
             <a href="#/106"><img src="images/Cmasmas.png"></a>
+            <a href="#/107"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -250,6 +263,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/108"><img src="images/problema.png"></a>
             <a href="#/112"><img src="images/Cmasmas.png"></a>
+            <a href="#/113"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -258,6 +272,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/114"><img src="images/problema.png"></a>
             <a href="#/117"><img src="images/Cmasmas.png"></a>
+            <a href="#/118"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -280,6 +295,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/128"><img src="images/problema.png"></a>
             <a href="#/131"><img src="images/Cmasmas.png"></a>
+            <a href="#/132"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -302,6 +318,7 @@ Created by [edme88]("https://t.me/edme88")
         Producto
         <p>
             <a href="#/143"><img src="images/problema.png"></a>
+            <a href="#/147"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -440,6 +457,8 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 
 ---
 #### EJ2: Suma 1 a 10
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_NfFOFvfX1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -492,6 +511,7 @@ calculará el promedio de las notas.
 
 ---
 #### EJ4: Promedio Notas
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ex5chcpeTPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a href="#/1"><img src="images/back_indice.png"></a>
 
@@ -520,6 +540,8 @@ mostrar debe empezar en la multiplicación por 1.
 
 ---
 #### EJ5: Tabla multiplicar 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qsFkt_5gNyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -570,7 +592,9 @@ Si la cantidad baja de 200 debe notificarse un alerta.
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ7: 100 pares 
+#### EJ7: 100 pares
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6xLcHe2ZbEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -604,26 +628,27 @@ El programa debe permitir ingresar el sueldo del empleado y si corresponde mostr
 Calcule el aumento de sueldo de para un grupo de empleados teniendo en cuenta el siguiente criterio: Si el sueldo es 
 inferior a $18000, aumento de 15%, Si el sueldo es mayor o igual a $18000, aumento del 12%.
 
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ9: Aumento de Sueldo 
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ9: Aumento de Sueldo 
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ9: Aumento de Sueldo 
 ````javascript
 ````
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ9: Aumento de Sueldo 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ERNtV-koCGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ10: Suma 1 a 10
@@ -648,6 +673,8 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 
 ---
 #### EJ10: Suma 1 a 10 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ERNtV-koCGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -688,6 +715,8 @@ int main(){
 
 ---
 #### EJ11: Cantidad 0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3fFeeWwv0II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -736,6 +765,7 @@ int main(){
 
 ---
 #### EJ12: Mayor y Menor 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CaPK-XWgTes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a href="#/2"><img src="images/back_indice.png"></a>
 
@@ -785,7 +815,7 @@ int main(){
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ13: + - 0 
+#### EJ13: + - 0
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -810,7 +840,9 @@ Ej.      6! = 6 x 5 x 4 x 3 x 2 x 1 = 720
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ14: Factorial 
+#### EJ14: Factorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2_mZG-lDLHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -932,6 +964,8 @@ int main(){
 
 ---
 #### EJ18: Primos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZOqTRNTJUY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -974,6 +1008,8 @@ int main(){
 
 ---
 #### EJ19: Serie 2,5,7,10..
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8kBNnqIqRM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
@@ -1000,6 +1036,8 @@ la cantidad de ventas de cada categoría.
 
 ---
 #### EJ20: Cant. Ventas 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nq1r4yjSu7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
@@ -1040,6 +1078,8 @@ int main(){
 
 ---
 #### EJ21: Serie 1-1/2+1/3-...
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hHd1RhRAuQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
@@ -1096,6 +1136,8 @@ int main(){
 
 ---
 #### EJ22: Fibonacci
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2ONuxd73Ndk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
@@ -1148,7 +1190,9 @@ int main(){
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
-#### EJ23: Conjetura Ulam 
+#### EJ23: Conjetura Ulam
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HxWLLRfFEJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
@@ -1240,7 +1284,9 @@ int main(){
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
-#### EJ26: Aproximación Pi 
+#### EJ26: Aproximación Pi
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w7Pcmcf6wHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
@@ -1370,6 +1416,8 @@ Realizar el producto entre dos enteros como sumas sucesivas.
 
 ---
 #### EJ29: Producto
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hgz77Mcfit4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
@@ -1477,48 +1525,48 @@ Se debe realizar el control de calidad en una producción de piezas, si se consi
 miden entre 1,15 y 1,20. Calcular la cantidad de piezas aptas, no aptas, y su porcentaje. El procesa finaliza cuando 
 se ingresa una longitud nula.
 
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ34: Piezas
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ34: Piezas
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ34: Piezas
 ````javascript
 ````
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ34: Piezas
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ35: 10,20,30,40
 Se ingresa una serie de números enteros. Determinar cuántas veces se presentan las números 10, 20, 30 y 40 y la 
 cantidad de números ingresados distintos de los anteriores. El proceso finaliza cuando se ingresa el número 99.
 
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ35: 10,20,30,40
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ35: 10,20,30,40
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ35: 10,20,30,40
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ35: 10,20,30,40
-<a href="#/2"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ36: A y B
@@ -1535,47 +1583,47 @@ La cantidad de números es: 4
 La sumatoria de números es: 22
 ````
 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ36: A y B
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ36: A y B
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ36: A y B
 ````javascript
 ````
 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ36: A y B
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ37: A, B y C 
 Leer 3 valores enteros distintos A, B y C. Imprimir los números comprendidos entre el menor y el doble del mayor; 
 sumándole sucesivamente al menor el restante.
 
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ37: A, B y C
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ37: A, B y C
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ37: A, B y C
 ````javascript
 ````
-<a href="#/3"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ37: A, B y C 
@@ -1587,7 +1635,7 @@ Leer N pares de valores X e Y (N ingresado como dato). Calcular cada una de las 
 
 ![Funciones X Y](images/TP3/EJ38_NparesXY.png)
 
-<a href="#/"><img src="images/back_indice.png"></a>
+<a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ38: N pares X,Y 
