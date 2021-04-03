@@ -76,6 +76,7 @@ Created by <i class="fab fa-telegram"></i>
         N° al Cuadrado
         <p>
             <a href="#/3"><img src="images/problema.png"></a>
+            <a href="#/6"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -83,6 +84,7 @@ Created by <i class="fab fa-telegram"></i>
         Suma de N°
         <p>
             <a href="#/8"><img src="images/problema.png"></a>
+            <a href="#/11"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -90,6 +92,7 @@ Created by <i class="fab fa-telegram"></i>
         N° mayor
         <p>
             <a href="#/13"><img src="images/problema.png"></a>
+            <a href="#/16"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -97,6 +100,7 @@ Created by <i class="fab fa-telegram"></i>
         + - 0
         <p>
             <a href="#/18"><img src="images/problema.png"></a>
+            <a href="#/21"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -104,6 +108,7 @@ Created by <i class="fab fa-telegram"></i>
         División exacta
         <p>
             <a href="#/23"><img src="images/problema.png"></a>
+            <a href="#/26"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -111,6 +116,7 @@ Created by <i class="fab fa-telegram"></i>
         Vocal
         <p>
             <a href="#/28"><img src="images/problema.png"></a>
+            <a href="#/31"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -118,6 +124,7 @@ Created by <i class="fab fa-telegram"></i>
         Trayectoria proyectil
         <p>
             <a href="#/33"><img src="images/problema.png"></a>
+            <a href="#/36"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -125,6 +132,7 @@ Created by <i class="fab fa-telegram"></i>
         N° primo
         <p>
             <a href="#/38"><img src="images/problema.png"></a>
+            <a href="#/41"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -132,6 +140,7 @@ Created by <i class="fab fa-telegram"></i>
         Conversión N°
         <p>
             <a href="#/43"><img src="images/problema.png"></a>
+            <a href="#/46"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -139,6 +148,7 @@ Created by <i class="fab fa-telegram"></i>
         Polar ^ Cartesiano
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
+            <a href="#/51"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -146,6 +156,7 @@ Created by <i class="fab fa-telegram"></i>
         Factorial
         <p>
             <a href="#/53"><img src="images/problema.png"></a>
+            <a href="#/56"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -153,6 +164,7 @@ Created by <i class="fab fa-telegram"></i>
         Serie a^0,a^1,a^2,...,a^n
         <p>
             <a href="#/58"><img src="images/problema.png"></a>
+            <a href="#/61"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
 </div>
@@ -166,6 +178,7 @@ Created by <i class="fab fa-telegram"></i>
         Área: C, c, R, T
         <p>
             <a href="#/63"><img src="images/problema.png"></a>
+            <a href="#/66"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -173,6 +186,7 @@ Created by <i class="fab fa-telegram"></i>
         Código Morse
         <p>
             <a href="#/68"><img src="images/problema.png"></a>
+            <a href="#/71"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -203,6 +217,29 @@ Escriba una función que reciba de parámetro un número entero, y devuelva el c
 ---
 ## EJ1: N° al Cuadrado
 ````javascript
+//Calcula el cuadrado de un numero
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+//PROTOTIPO
+int calculoCuadrado(int numero);
+
+//PROGRAMA PRINCIPAL
+int main(){
+    int num;
+    cout<<"Ingrese un numero: ";
+    cin>>num;
+    cout<<"El cuadrado del numero es: "<<calculoCuadrado(num)<<endl;
+}
+
+//FUNCIONES
+int calculoCuadrado(int numero){
+    int resultado;
+    //resultado = pow(numero, 2);
+    resultado = numero*numero;
+    return resultado;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -231,6 +268,29 @@ Escriba una función que reciba como parámetros 2 números, y retorne la suma d
 ---
 ### EJ2: Suma de N° 
 ````javascript
+#include <iostream>
+using namespace std;
+
+//PROTOTIPOS
+int sumatoria(int num1, int num2);
+
+
+//FUNCION PRINCIPAL
+int main(){
+    int numero1, numero2;
+
+    cout<<"Ingrese 2 numeros: ";
+    cin>>numero1>>numero2;
+
+    cout<<"El resultado de sumar ambos numeros es: "<<sumatoria(numero1, numero2)<<endl;
+}
+
+//FUNCIONES
+int sumatoria(int num1, int num2){
+    int resultado;
+    resultado = num1 + num2;
+    return resultado;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -257,6 +317,33 @@ La función debe recibir como parámetro 2 números, y debe devolver como result
 ---
 ### EJ3: N° mayor 
 ````javascript
+#include <iostream>
+using namespace std;
+
+//PROTOTIPOS
+int mayorNumero(int numero1, int numero2);
+
+//FUNCION PRINCIPAL
+int main(){
+    int num1, num2;
+
+    cout<<"Ingrese 2 numeros: "<<endl;
+    cin>>num1>>num2;
+
+    cout<<"El mayor numero es: "<<mayorNumero(num1, num2)<<endl;
+
+}
+
+//FUNCIONES
+int mayorNumero(int numero1, int numero2){
+    if(numero1>numero2){
+        return numero1;
+    }
+
+    if(numero1<=numero2){
+        return numero2;
+    }
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -285,6 +372,38 @@ Escriba una función que  tenga un argumento de tipo entero, y que devuelva la l
 ---
 ### EJ4: + - 0 
 ````javascript
+#include <iostream>
+using namespace std;
+
+//PROTOTIPOS
+char verificaNumero(int numero);
+
+//PROGRAMA PRINCIPAL
+int main(){
+    int num;
+    char letra;
+    cout<<"Ingrese un numero: ";
+    cin>>num;
+
+    letra = verificaNumero(num);
+    cout<<endl<<letra;
+}
+
+//FUNCIONES
+char verificaNumero(int numero){
+    if(numero>0){
+        cout<<"El numero "<<numero<<" es positivo";
+        return 'P';
+    }
+    if(numero<0){
+        cout<<"El numero "<<numero<<" es negativo";
+        return 'N';
+    }
+    if(numero==0){
+        cout<<"El numero "<<numero<<" es cero";
+        return 'C';
+    }
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -311,6 +430,40 @@ Escriba una función que reciba de argumento 2 números enteros, y devuelva true
 ---
 ### EJ5: División exacta 
 ````javascript
+#include <iostream>
+using namespace std;
+
+//prototipo
+bool verificarDivision(int num1, int num2);
+
+//main()
+int main(){
+    int num1, num2;
+    bool verifacion;
+
+    cout<<"Ingrese 2 numeros: ";
+    cin>>num1>>num2;
+
+    verifacion=verificarDivision(num1, num2);
+
+    if(verifacion==true){
+        cout<<"La division es exacta"<<endl;
+    }else{
+        cout<<"La division no es exacta"<<endl;
+    }
+}
+
+//funciones
+bool verificarDivision(int num1, int num2){
+    bool b;
+
+    if(num1%num2==0){
+        b=true;
+    }else{
+        b=false;
+    }
+    return b;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -339,12 +492,41 @@ Escriba una función lógica Vocal, que determine si un carácter es una vocal.
 ---
 ### EJ6: Vocal
 ````javascript
+#include <iostream>
+using namespace std;
+
+//prototipo
+bool det_vocal(char vocal);
+
+int main (){
+char det;
+        cout<<"ingrese un caracter"<<endl;
+        cin>>det;
+
+        if(det_vocal(det)){
+            cout<<"Es una vocal"<<endl;
+        }else{
+            cout<<"No es una vocal"<<endl;
+        }
+}
+//funcion
+bool det_vocal(char vocal){
+    bool resultado;
+
+    if (vocal=='A'||vocal=='a'||vocal=='E'||vocal=='I'||vocal=='O'||vocal=='U'||vocal=='e'||vocal=='i'||vocal=='o'||vocal=='u'){
+        resultado=true;
+    }else {
+        resultado=false;
+    }
+    return resultado;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ6: Vocal
+<a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ7: Trayectoria proyectil  
@@ -370,6 +552,53 @@ Nota: Tener en cuenta que el proyectil volará hasta tocar el suelo, es decir, c
 ---
 ### EJ7: Trayectoria proyectil 
 ````javascript
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+//prototipo
+float coorX(float ang, float vel_inicial, float t);
+float coorY(float ang, float vel_inicial, float t);
+
+//programa principal
+int main(){
+    float ang, vel_inicial, val_X, val_Y, t;
+    val_Y=1;
+    t=0.1;
+
+    cout<<"Ingrese angulo: ";
+    cin>>ang;
+    cout<<"Ingrese velocidad inicial:";
+    cin>>vel_inicial;
+
+    ang=ang*M_PI/180;
+
+    while(val_Y>0){
+        val_Y=coorY(ang, vel_inicial, t);
+        val_X=coorX(ang, vel_inicial, t);
+        cout<<"La coordenada X es: "<<val_X<<endl;
+        cout<<"La coordenada Y es: "<<val_Y<<endl;
+        t+=0.1;
+    }
+
+    cout<<"El alcance máximo es: "<<val_X<<endl;
+    cout<<"El tiempo total de vuelo es: "<<t-0.1<<endl;
+}
+
+//funciones
+float coorX(float ang, float vel_inicial, float t){
+    float x;
+    x=cos(ang)*vel_inicial*t;
+
+    return x;
+}
+
+float coorY(float ang, float vel_inicial, float t){
+    float y;
+    y=(sin(ang)*vel_inicial*t)-0.5*9.8*t*t;
+
+    return y;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -398,6 +627,38 @@ divisible en 1 y en sí mismo.
 ---
 ### EJ8: N° primo
 ````javascript
+#include <iostream>
+using namespace std;
+
+//PROTOTIPOS
+bool esPrimo(int num);
+
+//FUNCION PRINCIPAL
+int main(){
+    int num;
+    cout<<"Ingrese un numero: ";
+    cin>>num;
+
+    if(esPrimo(num)){
+        cout<<num<<" es primo"<<endl;
+    }
+    else{
+        cout<<num<<" no es primo"<<endl;
+    }
+}
+
+//FUNCIONES
+bool esPrimo(int num){
+    bool esPri=true;
+
+    for(int k=2; k<num; k++){
+            if(num%k==0){
+                esPri=false;
+                break;
+            }
+    }
+    return esPri;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -434,6 +695,64 @@ resultado de esta conversión.
 ---
 ### EJ9: Conversión N° 
 ````javascript
+#include <iostream>
+using namespace std;
+
+//prototipo
+float conversion(float cantidad, char unidadIngresada, char unidadAconvertir);
+
+//funcion principal
+int main(){
+    float cantidad;
+    char unidadIngresada, unidadAconvertir;
+
+    do{
+        cout<<"Ingrese cantidad a convertir: ";
+        cin>>cantidad;
+
+        cout<<"Ingrese unidad: "<<endl;
+        cout<<"k) kilometro"<<endl;
+        cout<<"m) metro"<<endl;
+        cout<<"c) centimetro"<<endl;
+        cout<<"l) litro"<<endl;
+        cin>>unidadIngresada;
+
+        cout<<"Ingrese unidad a la cual desea convertir: "<<endl;
+        cout<<"M) millas"<<endl;
+        cout<<"y) yardas"<<endl;
+        cout<<"P) pies"<<endl;
+        cout<<"p) pulgadas"<<endl;
+        cout<<"g) galones"<<endl;
+        cin>>unidadAconvertir;
+
+        cout<<"La conversion es: "<<conversion(cantidad, unidadIngresada, unidadAconvertir)<<endl;
+    }while(true);
+
+}
+
+//funcion
+float conversion(float cantidad, char unidadIngresada, char unidadAconvertir){
+    float resultado;
+
+    if(unidadIngresada=='k' && unidadAconvertir=='M'){
+        resultado=cantidad*0.621371;
+    }else if(unidadIngresada=='m' && (unidadAconvertir=='y' || unidadAconvertir=='P')){
+        if(unidadAconvertir=='y'){
+            resultado=cantidad*1.09361;
+        }else{
+            resultado=cantidad*3.28084;
+        }
+    }else if(unidadIngresada=='c' && unidadAconvertir=='p'){
+        resultado=cantidad*0.393701;
+    }else if(unidadIngresada=='L' && unidadAconvertir=='g'){
+        resultado=cantidad*0.264172;
+    }else{
+        cout<<"Conversion no valida"<<endl;
+        resultado=0;
+    }
+
+    return resultado;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -463,6 +782,83 @@ convertir_polar_cartesiano, convertir_cartesiano_polar.
 ---
 ### EJ10: Polar ^ Cartesiano 
 ````javascript
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+//prototipo
+double coorX(double radio, double angulo);
+double coorY(double radio, double angulo);
+double calcularRadio(double x, double y);
+double calcularAngulo(double x, double y);
+
+//funcion principal
+int main(){
+    double radio, angulo, x, y;
+    int opcion;
+
+    cout<<"Seleccione una opcion"<<endl;
+    cout<<"1) Cartesianas a Polares"<<endl;
+    cout<<"2) Polares a Cartesianas"<<endl;
+    cin>>opcion;
+
+    switch(opcion){
+        case 1:
+            cout<<"Ingrese valor de x: ";
+            cin>>x;
+            cout<<"Ingrese valor de y: ";
+            cin>>y;
+
+            cout<<"El radio es: "<<calcularRadio(x, y)<<endl;
+            cout<<"El angulo es"<<calcularAngulo(x, y)<<endl;
+            break;
+        case 2:
+            cout<<"Ingrese el radio: ";
+            cin>>radio;
+
+            cout<<"Ingrese el angulo: ";
+            cin>>angulo;
+
+            angulo=angulo*M_PI/180;
+
+            cout<<"La coordenada X es: "<<coorX(radio, angulo)<<endl;
+            cout<<"La coordenada Y es: "<<coorY(radio, angulo)<<endl;
+
+            break;
+        default:
+            cout<<"Opcion invalida"<<endl;
+    }
+}
+
+//funciones
+double coorX(double radio, double angulo){
+    double x;
+    x = radio*cos(angulo);
+
+    return x;
+}
+
+double coorY(double radio, double angulo){
+    double y;
+    y = radio*sin(angulo);
+
+    return y;
+}
+
+double calcularRadio(double x, double y){
+    double radio;
+    radio=sqrt(x*x+y*y);
+
+    return radio;
+}
+
+double calcularAngulo(double x, double y){
+    double angulo;
+    angulo=atan(y/x);
+
+    angulo=angulo*180/M_PI;
+    return angulo;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -490,6 +886,35 @@ Recuerde que por ejemplo 5!=1x2x3x4x5=120.
 ---
 ### EJ11: Factorial
 ````javascript
+#include <iostream>
+using namespace std;
+
+//prototipo
+int calcularFactorial(int n);
+
+//funcion principal
+int main(){
+    int n;
+
+    do{
+        cout<<"Ingrese un numero n: ";
+        cin>>n;
+    }while(n<=0);
+
+    cout<<"El factorial de "<<n<<" es: "<<calcularFactorial(n);
+}
+
+//funcion
+int calcularFactorial(int n){
+    int acum;
+    acum=1;
+
+    for(int i=1;i<=n;i++){
+        acum=acum*i;
+    }
+
+    return acum;
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -517,6 +942,32 @@ La función debe recibir como entrada un número ‘a’ y un número ‘n’, y
 ---
 ### EJ12: Serie a^0,a^1,a^2,...,a^n  
 ````javascript
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+//PROTOTIPOS
+void funcion(double n, double a);
+
+//PROGRAMA PRINCIPAL
+int main(){
+    double n, a;
+    cout<<"Ingrese un valor de n: ";
+    cin>>n;
+
+    cout<<"Ingrese un valor de a: ";
+    cin>>a;
+
+    funcion(n,a);
+}
+
+
+//FUNCIONES
+void funcion(double n, double a){
+    for(int i=0; i<=n; i++){
+        cout<<pow(a, i)<<" , ";
+    }
+}
 ````
 
 <a href="#/1"><img src="images/back_indice.png"></a>
@@ -537,6 +988,7 @@ círculo, cuadrado, rectángulo o triángulo mediante funciones.
 ---
 ### EJ13: Área: C, c, R, T
 ````javascript
+
 ````
 
 <a href="#/2"><img src="images/back_indice.png"></a>
@@ -544,6 +996,111 @@ círculo, cuadrado, rectángulo o triángulo mediante funciones.
 ---
 ### EJ13: Área: C, c, R, T
 ````javascript
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+//prototipo
+float area_circulo(float rad);
+float area_rectangulo(float base, float altura);
+float area_cuadrado(float lado);
+float area_triangulo(float base, float altura);
+
+//funcion principal
+int main(){
+    char op;
+    float base, altura, lado, radio, area;
+    area = 0;
+
+    do{
+        cout<<"Ingrese c, r, x o t para: "<<endl;
+        cout<<"c) circulo"<<endl;
+        cout<<"r) rectangulo"<<endl;
+        cout<<"x) cuadrado"<<endl;
+        cout<<"t) triangulo"<<endl;
+        cin>>op;
+
+        if(op=='c' || op=='C'){
+            cout<<"Ingrese valor del radio: ";
+            cin>>radio;
+            area = area_circulo(radio);
+        }else if(op=='r' || op=='R'){
+            cout<<"Ingrese valor de la base: ";
+            cin>>base;
+            cout<<"Ingrese valor de la altura: ";
+            cin>>altura;
+            area = area_rectangulo(base, altura);
+        }else if(op=='x' || op=='X'){
+            cout<<"Ingrese valor de lado: "<<endl;
+            cin>>lado;
+            area = area_cuadrado(lado);
+        }else if(op=='t' || op=='T'){
+            cout<<"Ingrese valor de la base: ";
+            cin>>base;
+            cout<<"Ingrese valor de la altura: ";
+            cin>>altura;
+            area = area_triangulo(base, altura);
+        }else{
+            cout<<"Se ingreso opcion invalida"<<endl;
+        }
+
+        /*switch(op){
+            case 'c':
+            case 'C':
+                cout<<"Ingrese valor del radio: ";
+                cin>>radio;
+                area = area_circulo(radio);
+                break;
+            case 'R':
+            case 'r':
+                cout<<"Ingrese valor de la base: ";
+                cin>>base;
+                cout<<"Ingrese valor de la altura: ";
+                cin>>altura;
+                area = area_rectangulo(base, altura);
+                break;
+            case 't':
+            case 'T':
+                cout<<"Ingrese valor de la base: ";
+                cin>>base;
+                cout<<"Ingrese valor de la altura: ";
+                cin>>altura;
+                area = area_triangulo(base, altura);
+                break;
+            default:
+                cout<<"Se ingreso opción invalida"<<endl;
+        }*/
+
+        cout<<"El area es: "<<area<<endl;
+    }while(true);
+}
+
+//funciones
+float area_circulo(float rad){
+    float areaC;
+
+    areaC=M_PI*(rad*rad);
+    return areaC;
+}
+
+float area_rectangulo(float base, float altura){
+    float areaR;
+
+    areaR=base*altura;
+    return areaR;
+}
+
+float area_cuadrado(float lado){
+    float areaCuad;
+    areaCuad = lado * lado;
+    return areaCuad;
+}
+
+float area_triangulo(float base, float altura){
+    float areaT;
+    areaT = (base*altura)/2;
+    return areaT;
+}
 ````
 
 <a href="#/2"><img src="images/back_indice.png"></a>
@@ -570,12 +1127,42 @@ Escribir un programa que traduzca un texto a código morse:
 ---
 ### EJ14: Código Morse 
 ````javascript
+#include <iostream>
+using namespace std;
+
+//prototipo
+void escribir_morse(char letra);
+
+//funcion principal
+int main(){
+    char letra;
+
+    do{
+        cout<<"Ingrese una letra: ";
+        cin>>letra;
+        escribir_morse(letra);
+    }while(true);
+}
+//funcion
+void escribir_morse(char letra){
+    if(letra=='A' || letra=='a'){
+        cout<<"._";
+    }else if(letra=='H' || letra=='h'){
+        cout<<"....";
+    }else if(letra=='l' || letra=='L'){
+        cout<<"._..";
+    }else if(letra=='o' || letra=='O'){
+        cout<<"_ _ _";
+    }
+}
 ````
 
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ14: Código Morse 
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 ### EJ15: Pared

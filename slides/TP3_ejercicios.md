@@ -423,9 +423,10 @@ Created by [edme88]("https://t.me/edme88")
 
 ---
 ### EJ1: Suma N números 
-<!-- .slide: style="font-size: 0.50em" -->
+<!-- .slide: style="font-size: 0.40em" -->
 Dada la siguiente consigna: “Calcular la suma de un conjunto de N números leídos desde teclado”, determinar si los 
 siguientes diagramas de flujo, resuelven correctamente lo pedido. En caso contrario, indicar los errores:
+
 ![Ej1](images/TP3/FlowChart_3.png)
 <a href="#/1"><img src="images/back_indice.png"></a>
 

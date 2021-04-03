@@ -336,6 +336,7 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/148"><img src="images/problema.png"></a>
             <a href="#/151"><img src="images/Cmasmas.png"></a>
+            <a href="#/152"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -1712,7 +1713,9 @@ int main()
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ30: Arábigos a Romanos 
+#### EJ30: Arábigos a Romanos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qyqxdvlOWuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
