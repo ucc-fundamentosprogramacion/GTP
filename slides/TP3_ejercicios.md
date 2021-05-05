@@ -184,6 +184,8 @@ Created by [edme88]("https://t.me/edme88")
         + - 0
         <p>
             <a href="#/63"><img src="images/problema.png"></a>
+            <a href="#/64"><img src="images/flow_chart.png"></a>
+            <a href="#/65"><img src="images/pseint_logo.png"></a>
             <a href="#/66"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
@@ -262,6 +264,8 @@ Created by [edme88]("https://t.me/edme88")
         Fibonacci
         <p>
             <a href="#/108"><img src="images/problema.png"></a>
+            <a href="#/110"><img src="images/flow_chart.png"></a>
+            <a href="#/111"><img src="images/pseint_logo.png"></a>
             <a href="#/112"><img src="images/Cmasmas.png"></a>
             <a href="#/113"><img src="images/youtube_logo.png"></a>
         </p>
@@ -271,6 +275,8 @@ Created by [edme88]("https://t.me/edme88")
         Conjetura Ulam
         <p>
             <a href="#/114"><img src="images/problema.png"></a>
+            <a href="#/115"><img src="images/flow_chart.png"></a>
+            <a href="#/116"><img src="images/pseint_logo.png"></a>
             <a href="#/117"><img src="images/Cmasmas.png"></a>
             <a href="#/118"><img src="images/youtube_logo.png"></a>
         </p>
@@ -778,10 +784,40 @@ Leer diez números y determinar la cantidad de ceros, positivos y negativos.
 
 ---
 #### EJ13: + - 0 
+![Ej13](images/TP3/ej13.png)
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ13: + - 0 
+#### EJ13: + - 0
+````javascript
+Algoritmo TP3_U2_EJ13_CantCer_pos_neg
+	Definir cant_cero, cant_pos, cant_neg, ciclo Como Entero
+	Definir numU Como Real
+	cant_cero=0
+	cant_pos=0
+	cant_neg=0
+	
+	Para ciclo=1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		Leer numU
+		
+		Si numU>0 Entonces
+			cant_pos=cant_pos+1
+		SiNo
+			Si numU<0 Entonces
+				cant_neg=cant_neg+1
+			SiNo
+				cant_cero=cant_cero+1
+			Fin Si
+		Fin Si
+	Fin Para
+	
+	Escribir "La cantidad de positivos es: ", cant_pos
+	Escribir "La cantidad de negativos es: ", cant_neg
+	Escribir "La cantidad de ceros es: ", cant_cero
+	
+FinAlgoritmo
+````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -1098,10 +1134,38 @@ pantalla la cantidad de números de la sucesión de Fibonacci correspondiente.
 
 ---
 #### EJ22: Fibonacci
+![Ej1](images/TP3/ej22.png)
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ22: Fibonacci
+````javascript
+Algoritmo TP3_U2_EJ22_sucesionFibonacci
+	Definir num1, num2, resultado, cantTerminos, cantTerminosUsuarios Como Entero
+	cantTerminos=2
+	num1=0
+	num2=1
+	
+	Escribir "Ingrese cantidad de terminos de la sucesion de Fibonacci que desea"
+	Leer cantTerminosUsuarios
+	
+	Si cantTerminosUsuarios>=3 Entonces
+		Escribir num1
+		Escribir num2
+		Mientras cantTerminos<cantTerminosUsuarios Hacer
+			resultado=num1+num2
+			Escribir resultado
+			num1=num2
+			num2=resultado
+			
+			cantTerminos=cantTerminos+1
+		Fin Mientras
+	SiNo
+		Escribir "Ingreso una cantidad menor que 3"
+	Fin Si
+	
+FinAlgoritmo
+````
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
@@ -1151,11 +1215,37 @@ Ej: Si num=6, los números son 6, 3, 10, 5, 16, 8, 4, 2, 1
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
-#### EJ23: Conjetura Ulam 
+#### EJ23: Conjetura Ulam
+![Ej1](images/TP3/ej23.png)
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
 #### EJ23: Conjetura Ulam 
+````javascript
+Algoritmo TP3_U2_EJ23_ConjeturaCollatz
+	Definir numU Como Entero
+	
+	Escribir "Ingrese numero entero positivo:"
+	Leer numU
+		
+	Si numU>0 Entonces
+		
+		Mientras numU<>1 Hacer
+			Si numU%2==0 Entonces
+				numU=numU/2
+			SiNo
+				numU=numU*3+1
+			Fin Si
+			
+			Escribir numU
+		Fin Mientras
+	SiNo
+		Escribir "Numero ingresado incorrecto"
+	Fin Si
+	
+FinAlgoritmo
+````
+
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---

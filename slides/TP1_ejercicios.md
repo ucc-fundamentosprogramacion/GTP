@@ -1015,8 +1015,9 @@ int main(){
 
 ---
 ### EJ16: Coordenadas: Cartesianas a Polares
-Realizar la conversión de coordenadas cartesianas (x, y) a polares (r, Ө). (En Cmasmas, recuerda incluir la libreria cmath 
-para emplear las funciones atan y sqrt)
+Realizar la conversión de coordenadas cartesianas (x, y) a polares (r, Ө). 
+(Recuerde que 180º=𝝅)
+(En C++, recuerda incluir la libreria cmath para emplear las funciones atan y sqrt)
 
 
 <a href="#/2"><img src="images/back_indice.png"></a>
