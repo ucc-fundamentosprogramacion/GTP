@@ -577,9 +577,7 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 
 ---
 #### EJ7: 100 pares  
-Existen 1000 unidades de un determinado producto. Mientras existan más de 200 se pueden seguir realizando entregas. 
-Si la cantidad baja de 200 debe notificarse un alerta.
-
+Escribe los 100 primeros números pares.
 
 <a href="#/1"><img src="images/back_indice.png"></a>
 
