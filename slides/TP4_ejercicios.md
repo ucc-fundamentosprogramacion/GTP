@@ -102,12 +102,12 @@ Created by [edme88]("https://t.me/edme88")
         <h3>Estructura Secuencial <br> TP 1</h3>
     </div>
     </a>
-    <a href="TP1_ejercicios.html">
+    <a href="TP2_ejercicios.html">
     <div>
         <h3>Estructuras de Decisión o Selección <br> TP 2</h3>
     </div>
     </a>
-    <a href="TP1_ejercicios.html">
+    <a href="TP3_ejercicios.html">
     <div>
             <h3>Estructuras de Iteración o Repetición <br> TP 3</h3>
         </div>
