@@ -472,6 +472,25 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 
 </script></section><section  data-markdown><script type="text/template">
 #### EJ2: Suma 1 a 10
+````javascript
+#include <iostream>
+using namespace std;
+
+int main3_ej2(){
+    int num, acumulador; //num actua como contador
+    num=1;
+    acumulador=0;
+    
+    while(num<=10){
+        acumulador=acumulador+num;
+        cout<<"El resultado parcial de la suma (ciclo "<<num<<") es: "<<acumulador<<endl;
+        num++;
+    }
+    
+    cout<<"El resultado de sumar del 1 al 10 es: "<<acumulador<<endl;
+}
+````
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
@@ -580,6 +599,22 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 </script></section><section  data-markdown><script type="text/template">
 #### EJ6: Suma 1 al 10 
 ````javascript
+#include <iostream>
+using namespace std;
+
+int main3_6(){
+    int num, acumulador; //num actua como contadot
+    num=1;
+    acumulador=0;
+    
+    do{
+        acumulador=acumulador+num;
+        cout<<"El resultado parcial de la suma (ciclo "<<num<<") es: "<<acumulador<<endl;
+        num=num+1;
+    }while(num<=10);
+    
+    cout<<"El resultado de sumar del 1 al 10 es: "<<acumulador<<endl;
+}
 ````
 <a href="#/1"><img src="images/back_indice.png"></a>
 
@@ -684,7 +719,20 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 </script></section><section  data-markdown><script type="text/template">
 #### EJ10: Suma 1 a 10 
 ````javascript
+#include <iostream>
+using namespace std;
 
+int main3_10(){
+    int acumulador; //num actua como contadot
+    acumulador=0;
+    
+    for(int num=1;num<=10;num++){
+        acumulador=acumulador+num;
+        cout<<"El resultado parcial de la suma (ciclo "<<num<<") es: "<<acumulador<<endl;
+    }
+    
+    cout<<"El resultado de sumar del 1 al 10 es: "<<acumulador<<endl;
+}
 ````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
@@ -1035,19 +1083,15 @@ El programa debe imprimir los términos de la siguiente serie: 2,5,7,10,12,15,17
 #include <iostream>
 using namespace std;
 
-int main(){
-   int Nserie=2,cnum=0;
-   cout<<"La serie es : "<<endl;
-   while (Nserie<=100){
-      cout<<Nserie<<endl;
-      cnum++;
-      if (cnum % 2 == 0){
-         Nserie+=2; //Nserie=Nserie+2;
-      }
-      else{
-         Nserie+=3; //Nserie=Nserie+3;
-      }
-   }
+int main3_19(){
+    int num=2;
+    
+    while(num<100){
+        cout<<num<<endl;
+        num=num+3;
+        cout<<num<<endl;
+        num=num+2;
+    }
 }
 ````
 
