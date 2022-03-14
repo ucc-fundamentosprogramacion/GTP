@@ -15,7 +15,8 @@
         font-size: 28px;
         font-weight: normal;
         margin: 20px;
-        margin-left: 20%
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     h2 {
@@ -44,24 +45,47 @@
         border: none;
     }
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: 320px auto;
+        padding: 10px;
+    }
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(92, 168, 255, 0.8);
+        font-size: 30px;
+        padding: 10px;
+        vertical-align: middle;
+    }
+
 
 </style>
-<body>
-
+<div>
 <h2>FUNDAMENTOS DE PROGRAMACIÓN</h2>
 <h3>GTP</h3>
-<br>
-<p style="text-align: left">
-    <a href="TP1_ejercicios.html"> Trabajo Práctico 1: Estructura Secuencial</a>
-    <br>
-    <a href="TP2_ejercicios.html"> Trabajo Práctico 2: Estructuras de selección o decisión</a>
-    <br>
-    <a href="TP3_ejercicios.html"> Trabajo Práctico 3: Estructuras Iterativas o Repetitivas</a>
-    <br>
-    <a href="TP4_ejercicios.html"> Trabajo Práctico 4: Programación en C/C++</a>
-    <br>
-    <a href="TP5_ejercicios.html"> Trabajo Práctico 5: Programación Modular</a>
-
-</p>
+<div class="grid-container">
+    <div class="grid-item">
+        <img src="images/indice/unidad1.png" />
+    </div>
+    <div class="grid-item">
+        <a href="TP1_ejercicios.html"> Trabajo Práctico 1: Estructura Secuencial</a>
+        <br>
+        <a href="TP2_ejercicios.html"> Trabajo Práctico 2: Estructuras de selección o decisión</a>
+        <br>
+        <a href="TP3_ejercicios.html"> Trabajo Práctico 3: Estructuras Iterativas o Repetitivas</a>
+    </div>
+    <div class="grid-item">
+        <img src="images/indice/unidad3.png" />
+    </div>
+    <div class="grid-item">
+        <a href="TP4_ejercicios.html"> Trabajo Práctico 4: Programación en C/C++</a>
+    </div>
+    <div class="grid-item">
+        <img src="images/indice/unidad4.jpeg" />
+    </div>
+    <div class="grid-item">
+        <a href="TP5_ejercicios.html"> Trabajo Práctico 5: Programación Modular</a>
+    </div>
+</div>
 </body>
 </html>
