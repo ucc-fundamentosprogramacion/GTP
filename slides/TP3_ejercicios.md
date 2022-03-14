@@ -86,6 +86,7 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 a 10
         <p>
             <a href="#/9"><img src="images/problema.png"></a>
+            <a href="#/11"><img src="images/Cmasmas.png"></a>
             <a href="#/12"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -121,6 +122,7 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 al 10
         <p>
             <a href="#/28"><img src="images/problema.png"></a>
+            <a href="#/31"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -158,6 +160,7 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 a 10
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
+            <a href="#/51"><img src="images/Cmasmas.png"></a>
             <a href="#/52"><img src="images/youtube_logo.png"></a>
         </p>
     </div>

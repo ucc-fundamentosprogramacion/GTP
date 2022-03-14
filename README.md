@@ -12,4 +12,4 @@ Steps:
 
 Link
 ----
-[GTP 1](https://ucc-fundamentosprogramacion.github.io/GTP/TP1_ejercicios.html)
+[GTP 1](https://ucc-fundamentosprogramacion.github.io/GTP/)
