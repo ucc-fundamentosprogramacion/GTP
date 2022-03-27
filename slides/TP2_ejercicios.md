@@ -150,6 +150,7 @@ Created by [edme88]("https://t.me/edme88")
         Aprobado o Desaprobado
         <p>
             <a href="#/43"><img src="images/problema.png"></a>
+            <a href="#/45"><img src="images/pseint_logo.png"></a>
             <a href="#/46"><img src="images/Cmasmas.png"></a>
             <a href="#/47"><img src="images/youtube_logo.png"></a>
         </p>
@@ -658,6 +659,19 @@ Si es inferior a 4 debe aparecer: “Reprobado”.
 
 ---
 #### EJ9: Aprobado o Desaprobado
+````javascript
+Algoritmo unidad2_ej9_nota
+	Definir nota Como Real
+	Escribir "Ingrese una nota"
+	Leer nota
+	Si nota>=4 Entonces
+		Escribir "Aprobado"
+	SiNo
+		Escribir "Reprobado"
+	Fin Si
+FinAlgoritmo
+````
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
