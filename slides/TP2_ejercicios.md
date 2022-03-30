@@ -85,6 +85,7 @@ Created by [edme88]("https://t.me/edme88")
     </div>
 </div><br>
     
+    
 #### Estructura de control de alternativa simple
 <!-- .slide: style="font-size: 0.70em" -->
 <div class="grid2">
@@ -141,6 +142,7 @@ Created by [edme88]("https://t.me/edme88")
 </div>
 
 ---
+
 ## Ejercicio TP2
 #### Estructura de control de alternativa doble
 <!-- .slide: style="font-size: 0.70em" -->
@@ -792,8 +794,8 @@ int main(){
 ---
 #### EJ12: Función Cuadrática
 <!-- .slide: style="font-size: 0.70em" -->
-Empleando como base el ejercicio de la unidad anterior (Ejercicio 22): Permite ingresar 3 valores: a (término cuadrático), 
-b (coeficiente lineal) y c (término independiente). El programa debe mostrar por pantalla el valor de las 2 raíces. 
+Empleando como base el ejercicio de la unidad anterior (Ejercicio 22): Permite ingresar 3 valores: a, 
+b y c. El programa debe mostrar por pantalla el valor de las 2 raíces. 
 Recuerde que para la ecuación de segundo grado ax2+bx+c=0 las raíces se calculan a partir de la fórmula x=(-b±raiz(b^2-4ac))/2a
 Realice: Modifica tu código para que “analice” la función ¿La parábola se ensancha o se estrecha? 
 ¿La parábola es cóncava hacia abajo (vértice máximo) o hacia arriba (vértice mínimo)? ¿Cuáles son los puntos de corte 
