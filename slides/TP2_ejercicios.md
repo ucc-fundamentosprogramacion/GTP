@@ -453,25 +453,26 @@ Para poder subirse a la montaña rusa, la persona debe medir 1,30 mts o más, ca
 
 ---
 #### EJ4: Parque de Diversiones
+````javascript
+
+````
 <a href="#/1"><img src="images/back_indice.png"></a>
+
 
 ---
 #### EJ4: Parque de Diversiones
 ````javascript
-#include <iostream>
-using namespace std;
-
-int main(){
-   float altura;
-   cout<<"Ingrese la altura de la persona ";
-   cin>>altura;
-   if (altura>=1.30){
-    cout<<"La persona puede subir al juego"<<endl;
-    }
-   else{
-    cout<<"La persona no puede subir al juego"<<endl;
-   }
-}
+Algoritmo Unidad2_Ejercicio4
+ 	Definir altura Como Real
+ 	Escribir "Ingrese su altura"
+ 	Leer altura
+ 	
+ 	Si altura>=1.3 Entonces
+ 		Escribir "Puede ingresar a la montaña rusa"
+ 	SiNo
+ 		Escribir "Su altura no es suficiente para ingresar al juego"
+ 	Fin Si
+ FinAlgoritmo
 ````
 <a href="#/1"><img src="images/back_indice.png"></a>
 
@@ -580,6 +581,24 @@ Mostrar en pantalla el valor de A y B.
 
 ---
 #### EJ7: Intercambio A y B 
+````javascript
+Algoritmo U2_ej7_mayor_menor
+	Definir numA, numB, temp Como Real
+	
+	Escribir "Ingrese numA"
+	Leer numA
+	Escribir "Ingrese numB"
+	Leer numB
+	
+	Si numA<numB Entonces
+		temp=numB
+		numB=numA
+		numA=temp
+	Fin Si
+	Escribir "El mayor numero es: ", numA
+	Escribir "El menor numero es: ", numB
+FinAlgoritmo
+````
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -716,6 +735,19 @@ El usuario deberá ingresar por teclado tanto la cantidad de bancos que tiene el
 
 ---
 #### EJ10: Bancos en Aula
+````javascript
+Algoritmo U2_EJ10_cantBancos
+	Definir cantBancos, cantAlumnos Como Entero
+	Escribir "Ingrese cantidad de bancos y alumnos"
+	Leer cantBancos, cantAlumnos
+	
+	Si cantBancos>=cantAlumnos Entonces
+		Escribir "Alcanzan los bancos"
+	SiNo
+		Escribir "Faltan ",cantAlumnos-cantBancos, " bancos"
+	Fin Si
+FinAlgoritmo
+````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -809,6 +841,46 @@ en el eje Y? ¿Cuál es el vértice de la parábola? ¿Qué tipo de raíces tien
 
 ---
 #### EJ12: Función Cuadrática
+````javascript
+Algoritmo unidad1_ejercicio22_raices
+	Definir a, b, c, r1, r2, det, parteReal, parteImg, verticeX, verticeY Como Real
+	
+	Escribir "Ingrese a, b, c"
+	Leer a, b, c
+	
+	det = b^2 - 4*a*c
+	Si det>=0 Entonces
+		r1 = (-b + RAIZ(det)) / (2*a)
+		r2 = (-b - RAIZ(det)) / (2*a)
+		Escribir "Raices Reales"
+		Escribir "La raiz R1 es: ", r1
+		Escribir "La raiz R2 es: ", r2
+	SiNo
+		parteReal = (-b/2*a)
+		parteImg = RAIZ(-det)/(2*a)
+		Escribir "Raices Imaginarias"
+		Escribir "La raiz R1 es: ", parteReal, "+", parteImg, "i"
+		Escribir "La raiz R2 es: ", parteReal, "-", parteImg, "i"
+	Fin Si
+	
+	Si ABS(a)>1 Entonces
+		Escribir "La parábola se ensancha"
+	SiNo
+		Escribir "La parábola se estrecha"
+	Fin Si
+	
+	Si a<0 Entonces
+		Escribir "La parabola tiene un maximo"
+	SiNo
+		Escribir "La parabola tiene un minimo"
+	FinSi
+	
+	verticeX = (-b)/(2*a)
+	verticeY = -det/(4*4)
+	Escribir "El vertice X es ", verticeX
+	Escribir "El vertice Y es ", verticeY
+FinAlgoritmo
+````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -1152,6 +1224,43 @@ Diseñar un algoritmo que devuelva el nombre del mes, a partir del número de me
 
 ---
 #### EJ19: Nombre Mes
+````javascript
+Algoritmo U2_ej19_meses
+	Definir numMes Como Entero
+	
+	Escribir "Ingrese numero de mes: "
+	Leer numMes
+	
+	Segun numMes Hacer
+		1:
+			Escribir "Enero"
+		2:
+			Escribir "Febrero"
+		3:
+			Escribir "Marzo"
+		4:
+			Escribir "Abril"
+		5:
+			Escribir "Mayo"
+		6:
+			Escribir "Junio"
+		7:
+			Escribir "Julio"
+		8:
+			Escribir "Agosto"
+		9:
+			Escribir "Septiembre"
+		10:
+			Escribir "Octubre"
+		11:
+			Escribir "Noviembre"
+		12:
+			Escribir "Diciembre"
+		De Otro Modo:
+			Escribir 'El mes ingresado es incorrecto'
+	Fin Segun	
+FinAlgoritmo
+````
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
@@ -1321,6 +1430,23 @@ Permita leer un número desde el teclado y determinar si es positivo, negativo o
 
 ---
 #### EJ23: Positivo, Negativo y Cero
+````javascript
+Algoritmo U2_Ej23_pos_neg_cero
+	Definir numUsuario Como Real
+	Escribir "Ingrese un numero"
+	Leer numUsuario
+	
+	Si numUsuario<0 Entonces
+		Escribir "El numero es negativo"
+	SiNo
+		Si numUsuario=0 Entonces
+			Escribir "El numero es cero"
+		SiNo
+			Escribir "El numero es positivo"
+		Fin Si
+	Fin Si
+FinAlgoritmo
+````
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---
@@ -1833,6 +1959,29 @@ Sin embargo, los años múltiplos de 100 sólo son bisiestos cuando a la vez son
 
 ---
 #### EJ33: Año Bisiesto 
+````javascript
+Algoritmo U2_ej33_bisiesto
+	Definir anio Como Entero
+	
+	Escribir "Ingrese anio"
+	Leer anio
+	
+	Si anio%4==0 Entonces
+		Si anio%100==0 Entonces
+			Si anio%400==0 Entonces
+				Escribir "El año ", anio, " es bisiesto"
+			SiNo
+				Escribir "El año ", anio, " no es bisiesto"
+			Fin Si
+		SiNo
+			Escribir "El año ", anio, " es bisiesto"
+		Fin Si
+	SiNo
+		Escribir "El año ", anio, " no es bisiesto"
+	Fin Si
+	
+FinAlgoritmo
+````
 <a href="#/4"><img src="images/back_indice.png"></a>
 
 ---
