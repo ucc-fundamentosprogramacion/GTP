@@ -102,6 +102,7 @@ Created by [edme88]("https://t.me/edme88")
         Parque de Diversiones
         <p>
             <a href="#/18"><img src="images/problema.png"></a>
+            <a href="#/20"><img src="images/pseint_logo.png"></a>
             <a href="#/21"><img src="images/Cmasmas.png"></a>
             <a href="#/22"><img src="images/youtube_logo.png"></a>
         </p>
@@ -128,6 +129,7 @@ Created by [edme88]("https://t.me/edme88")
         Intercambio A y B
         <p>
             <a href="#/33"><img src="images/problema.png"></a>
+            <a href="#/35"><img src="images/pseint_logo.png"></a>
             <a href="#/36"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
@@ -162,6 +164,7 @@ Created by [edme88]("https://t.me/edme88")
         Bancos en Aula
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
+            <a href="#/50"><img src="images/pseint_logo.png"></a>
             <a href="#/51"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
@@ -178,6 +181,7 @@ Created by [edme88]("https://t.me/edme88")
         Función Cuadrática
         <p>
             <a href="#/58"><img src="images/problema.png"></a>
+            <a href="#/60"><img src="images/pseint_logo.png"></a>
             <a href="#/61"><img src="images/Cmasmas.png"></a>
             <a href="#/62"><img src="images/youtube_logo.png"></a>
         </p>
@@ -241,6 +245,7 @@ Created by [edme88]("https://t.me/edme88")
         Nombre Mes
         <p>
             <a href="#/93"><img src="images/problema.png"></a>
+            <a href="#/95"><img src="images/pseint_logo.png"></a>
             <a href="#/96"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
@@ -275,6 +280,7 @@ Created by [edme88]("https://t.me/edme88")
         + - y 0
         <p>
             <a href="#/114"><img src="images/problema.png"></a>
+            <a href="#/116"><img src="images/pseint_logo.png"></a>
             <a href="#/117"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
@@ -362,6 +368,7 @@ Created by [edme88]("https://t.me/edme88")
         Año Bisiesto
         <p>
             <a href="#/163"><img src="images/problema.png"></a>
+            <a href="#/165"><img src="images/pseint_logo.png"></a>
             <a href="#/166"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
