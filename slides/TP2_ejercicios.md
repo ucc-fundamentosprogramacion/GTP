@@ -83,8 +83,7 @@ Created by [edme88]("https://t.me/edme88")
             <a href="#/9"><img src="images/problema.png"></a>
         </p>
     </div>
-</div><br>
-    
+</div>
     
 #### Estructura de control de alternativa simple
 <!-- .slide: style="font-size: 0.70em" -->

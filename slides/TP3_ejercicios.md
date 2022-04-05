@@ -77,9 +77,8 @@ Created by [edme88]("https://t.me/edme88")
         </p>
     </div>
 </div>
-    
+
 #### Estructura de control repetitiva **While**
-<!-- .slide: style="font-size: 0.70em" -->
 <div class="grid2">
     <div>
         <h3>EJ 2</h3>
