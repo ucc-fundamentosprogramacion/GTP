@@ -95,6 +95,7 @@ Created by [edme88]("https://t.me/edme88")
         Gastos Viaje
         <p>
             <a href="#/13"><img src="images/problema.png"></a>
+            <a href="#/15"><img src="images/pseint_logo.png"></a>
         </p>
     </div>
     <div>
@@ -110,6 +111,7 @@ Created by [edme88]("https://t.me/edme88")
         Tabla multiplicar
         <p>
             <a href="#/23"><img src="images/problema.png"></a>
+            <a href="#/25"><img src="images/pseint_logo.png"></a>
             <a href="#/27"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -122,6 +124,7 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 al 10
         <p>
             <a href="#/28"><img src="images/problema.png"></a>
+            <a href="#/30"><img src="images/pseint_logo.png"></a>
             <a href="#/31"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
@@ -130,6 +133,7 @@ Created by [edme88]("https://t.me/edme88")
         100 pares
         <p>
             <a href="#/33"><img src="images/problema.png"></a>
+            <a href="#/35"><img src="images/pseint_logo.png"></a>
             <a href="#/37"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -145,7 +149,8 @@ Created by [edme88]("https://t.me/edme88")
         Aumento de Sueldo
         <p>
             <a href="#/43"><img src="images/problema.png"></a>
-            <a href="#/43"><img src="images/youtube_logo.png"></a>
+            <a href="#/45"><img src="images/pseint_logo.png"></a>
+            <a href="#/47"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
 </div>
@@ -160,6 +165,7 @@ Created by [edme88]("https://t.me/edme88")
         Suma 1 a 10
         <p>
             <a href="#/48"><img src="images/problema.png"></a>
+            <a href="#/50"><img src="images/pseint_logo.png"></a>
             <a href="#/51"><img src="images/Cmasmas.png"></a>
             <a href="#/52"><img src="images/youtube_logo.png"></a>
         </p>
@@ -472,9 +478,7 @@ Algoritmo unidad3_ej2_suma1al10
 	
 	Escribir "La suma de los numeros del 1 al 10 es ", total
 FinAlgoritmo
-
 ````
-
 
 <a href="#/1"><img src="images/back_indice.png"></a>
 
@@ -516,7 +520,24 @@ El programa mostrará la sumatoria de los mismos cuando el usuario ingrese un va
 
 ---
 #### EJ3: Gastos Viaje 
+````javascript
+Algoritmo U2_TP3_EJ3_gastos_viaje
+	Definir gasto, totalGastos Como Real
+	totalGastos=0
+	gasto=0
+	
+	Mientras gasto>=0 Hacer
+		totalGastos=totalGastos+gasto
+		Escribir "Ingrese un gasto: "
+		Leer gasto
+	Fin Mientras
+	
+	Escribir "El total de gastos es: $", totalGastos
+FinAlgoritmo
+````
+
 <a href="#/1"><img src="images/back_indice.png"></a>
+
 
 ---
 #### EJ3: Gastos Viaje 
@@ -571,10 +592,29 @@ mostrar debe empezar en la multiplicación por 1.
 
 ---
 #### EJ5: Tabla multiplicar 
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ5: Tabla multiplicar 
+````javascript
+Algoritmo U2_TP3_ej5_tablas_multiplicar
+	Definir resultMulti, num, numHasta,multip Como Entero
+	resultMulti = 0
+	multip = 1
+	
+	Escribir "Ingrese de que numero quiere la tabla de multiplicar: "
+	Leer num
+	Escribir "Hasta que numero quiere mostrar la tabla: "
+	Leer numHasta
+	
+	Mientras multip<=numHasta Hacer
+		Escribir num ," x ",multip, " = ", num*multip
+		multip = multip +1
+	Fin Mientras
+	
+FinAlgoritmo
+````
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -602,6 +642,21 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 
 ---
 #### EJ6: Suma 1 al 10 
+````javascript
+Algoritmo U2_TP3_EJ6_suma1_10_doWhile
+	Definir num, suma Como Entero
+	suma=0
+	num=1
+	
+	Repetir
+		suma=suma+num
+		num=num+1
+	Hasta Que num>10
+	
+	Escribir "El valor de la suma es: ", suma
+FinAlgoritmo
+````
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -642,6 +697,20 @@ Escribe los 100 primeros números pares.
 
 ---
 #### EJ7: 100 pares 
+````javascript
+Algoritmo U2_tp3_Ej7_100pares
+	Definir numPar, cantPares Como Entero
+	numPar=2
+	cantPares=1
+	Repetir
+		Escribir numPar
+		numPar=numPar+2
+		cantPares=cantPares+1
+	Hasta Que cantPares>100
+	
+FinAlgoritmo
+````
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -696,6 +765,29 @@ inferior a $18000, aumento de 15%, Si el sueldo es mayor o igual a $18000, aumen
 
 ---
 #### EJ9: Aumento de Sueldo 
+````javascript
+Algoritmo U2_TP3_ej9_aumento_sueldo
+	Definir sueldo Como Real
+	
+	Repetir
+		Escribir "Ingrese el sueldo del empleado: "
+		Leer sueldo
+		
+		Si sueldo>0 Entonces
+			Si sueldo>=18000 Entonces
+				Escribir "Su aumento es del 12%"
+				sueldo=sueldo*1.12
+			SiNo
+				Escribir "Su aumento es del 15%"
+				sueldo=sueldo*1.15
+			FinSi
+			Escribir "El sueldo con aumento es: $",sueldo
+		FinSi
+		
+	Hasta Que sueldo=0
+FinAlgoritmo
+````
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -722,6 +814,20 @@ Realice la sumatoria de los números enteros comprendidos entre el 1 al 10.
 
 ---
 #### EJ10: Suma 1 a 10 
+````javascript
+Algoritmo U2_TP3_EJ10_suma1_10_for
+	Definir num, suma Como Entero
+	suma=0
+	
+	Para num=1 Hasta 10 Con Paso 1 Hacer
+		suma=suma+num
+	Fin Para
+	
+	Escribir "La sumatoria es: ", suma
+	
+FinAlgoritmo
+````
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -1284,26 +1390,21 @@ Ej: Si num=6, los números son 6, 3, 10, 5, 16, 8, 4, 2, 1
 ---
 #### EJ23: Conjetura Ulam 
 ````javascript
-Algoritmo TP3_U2_EJ23_ConjeturaCollatz
-	Definir numU Como Entero
+Algoritmo U2_TP3_Ej23_conjetura_ulam
+	Definir numEntero Como Entero
 	
-	Escribir "Ingrese numero entero positivo:"
-	Leer numU
-		
-	Si numU>0 Entonces
-		
-		Mientras numU<>1 Hacer
-			Si numU%2==0 Entonces
-				numU=numU/2
-			SiNo
-				numU=numU*3+1
-			Fin Si
-			
-			Escribir numU
-		Fin Mientras
-	SiNo
-		Escribir "Numero ingresado incorrecto"
-	Fin Si
+	Escribir "Ingrese un numero"
+	Leer numEntero
+	
+	Mientras numEntero>1 Hacer
+		Si numEntero%2==0 Entonces
+			numEntero=numEntero/2
+		SiNo
+			numEntero=(numEntero*3)+1
+		FinSi
+		Escribir numEntero
+	Fin Mientras
+	
 	
 FinAlgoritmo
 ````
