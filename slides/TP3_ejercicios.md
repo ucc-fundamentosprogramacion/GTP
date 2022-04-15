@@ -184,6 +184,7 @@ Created by [edme88]("https://t.me/edme88")
         Mayor y Menor
         <p>
             <a href="#/58"><img src="images/problema.png"></a>
+            <a href="#/60"><img src="images/pseint_logo.png"></a>
             <a href="#/61"><img src="images/Cmasmas.png"></a>
             <a href="#/62"><img src="images/youtube_logo.png"></a>
         </p>
@@ -203,6 +204,7 @@ Created by [edme88]("https://t.me/edme88")
         Factorial
         <p>
             <a href="#/68"><img src="images/problema.png"></a>
+            <a href="#/70"><img src="images/pseint_logo.png"></a>
             <a href="#/72"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -232,6 +234,7 @@ Created by [edme88]("https://t.me/edme88")
         Primos
         <p>
             <a href="#/88"><img src="images/problema.png"></a>
+            <a href="#/90"><img src="images/pseint_logo.png"></a>
             <a href="#/92"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -309,6 +312,7 @@ Created by [edme88]("https://t.me/edme88")
         Aproximación Pi
         <p>
             <a href="#/128"><img src="images/problema.png"></a>
+            <a href="#/130"><img src="images/pseint_logo.png"></a>
             <a href="#/131"><img src="images/Cmasmas.png"></a>
             <a href="#/132"><img src="images/youtube_logo.png"></a>
         </p>
@@ -910,6 +914,33 @@ Determinar el mayor y el menor entre diez números enteros ingresados por teclad
 
 ---
 #### EJ12: Mayor y Menor 
+````javascript
+Algoritmo U2_TP3_EJ12
+	Definir num, cantNumeros, numMayor, numMenor Como Entero
+	
+	Para cantNumeros=1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese un numero: "
+		Leer num
+		
+		Si cantNumeros==1 Entonces
+			numMayor=num
+			numMenor=num
+		FinSi
+		
+		Si num<numMenor Entonces
+			numMenor=num
+		FinSi
+		
+		Si num>numMayor Entonces
+			numMayor=num
+		FinSi
+	Fin Para
+	
+	Escribir "El mayor numero es: ", numMayor
+	Escribir "El menor numero es: ", numMenor
+	
+FinAlgoritmo
+````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -1041,11 +1072,30 @@ Ej.      6! = 6 x 5 x 4 x 3 x 2 x 1 = 720
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ14: Factorial 
+#### EJ14: Factorial
+````javascript
+Algoritmo U2_TP3_EJ14_factorial
+	Definir num, resultado Como Entero
+	resultado=1
+	
+	Escribir "Ingrese un numero para calcular factorial"
+	Leer num
+	
+	Repetir
+		resultado=resultado*num
+		num=num-1
+	Mientras Que num>=1
+	
+	Escribir "El resultado del factorial es: ",resultado
+	
+FinAlgoritmo
+````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ14: Factorial 
+#### EJ14: Factorial
+````javascript
+````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -1144,6 +1194,30 @@ Permite al usuario ingresar un número. Verifica si el número es o no primo. Im
 
 ---
 #### EJ18: Primos
+````javascript
+Algoritmo U2_TP3_EJ18_primosA
+	Definir num, cantDivisores, denominador Como Entero
+	cantDivisores=0
+	
+	Escribir "Ingrese un numero"
+	Leer num
+	
+	Para denominador=1 Hasta num Con Paso 1 Hacer
+		Si num%denominador==0 Entonces
+			cantDivisores=cantDivisores+1
+			Escribir "El numero es divisible en ", denominador
+		FinSi
+	Fin Para
+	
+	Si cantDivisores==2 Entonces
+		Escribir "Es primo"
+	SiNo
+		Escribir  "No es Primo"
+	Fin Si
+	
+FinAlgoritmo
+````
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -1325,7 +1399,6 @@ Algoritmo TP3_U2_EJ22_sucesionFibonacci
 			Escribir resultado
 			num1=num2
 			num2=resultado
-			
 			cantTerminos=cantTerminos+1
 		Fin Mientras
 	SiNo
@@ -1510,6 +1583,28 @@ La diferencia entre la serie y Pi debe ser menor a 0,0005. El programa debe impr
 
 ---
 #### EJ26: Aproximación Pi 
+````javascript
+Algoritmo U2_TP3_Ej26_calculo_pi
+	Definir impares, signo, mi_valor_pi, ciclos Como Real
+	impares=1
+	signo=1
+	mi_valor_pi=0
+	//ciclos=1
+	
+	Repetir
+		mi_valor_pi=mi_valor_pi+(4/impares)*signo
+		impares=impares+2
+		signo=signo*(-1)
+		
+		//Escribir "En el ciclo ", ciclos, "el valor de pi es ", mi_valor_pi
+		//ciclos=ciclos+1	
+	Mientras Que ABS(mi_valor_pi-pi)>0.0005
+	
+	Escribir "Mi valor de pi es: ", mi_valor_pi
+	
+FinAlgoritmo
+````
+
 <a href="#/3"><img src="images/back_indice.png"></a> 
 
 ---

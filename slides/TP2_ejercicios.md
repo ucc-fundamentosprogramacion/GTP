@@ -74,6 +74,7 @@ Created by [edme88]("https://t.me/edme88")
         Salida de DF
         <p>
             <a href="#/5"><img src="images/problema.png"></a>
+            <a href="#/6"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
     <div>
@@ -81,10 +82,11 @@ Created by [edme88]("https://t.me/edme88")
         Salida de DF
         <p>
             <a href="#/9"><img src="images/problema.png"></a>
+            <a href="#/10"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
 </div>
-    
+
 #### Estructura de control de alternativa simple
 <!-- .slide: style="font-size: 0.70em" -->
 <div class="grid2">
@@ -119,6 +121,7 @@ Created by [edme88]("https://t.me/edme88")
         Descuento en pago
         <p>
             <a href="#/28"><img src="images/problema.png"></a>
+            <a href="#/30"><img src="images/pseint_logo.png"></a>
             <a href="#/31"><img src="images/Cmasmas.png"></a>
             <a href="#/32"><img src="images/youtube_logo.png"></a>
         </p>
@@ -205,6 +208,7 @@ Created by [edme88]("https://t.me/edme88")
         Salario de operario
         <p>
             <a href="#/73"><img src="images/problema.png"></a>
+            <a href="#/75"><img src="images/pseint_logo.png"></a>
             <a href="#/76"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
@@ -382,6 +386,13 @@ Para el diagrama de flujo determinar la salida en cada uno de los siguientes cas
 
 ---
 #### EJ1: Salida de DF
+| X | Y | Z |
+|---|---|---|
+|10 |10 |20 |
+| 5 | 5 |50 |
+| 1 | 4 |45 |
+|15 | 2 | 75|
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -401,6 +412,12 @@ Para el diagrama de flujo determinar la salida en cada uno de los siguientes cas
 
 ---
 #### EJ2: Salida de DF
+| A | B | C | X |
+|---|---|---|---|
+| 5 |10 |20 |40 |
+| 15|10 |20 |65 | 
+| 30|10 |20 |100|
+
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
@@ -545,26 +562,29 @@ efectivo, se realizará un descuento del 10%.
 
 ---
 #### EJ6: Descuento en pago
+````javascript
+
+````
 <a href="#/1"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ6: Descuento en pago
 ````javascript
-#include <iostream>
-using namespace std;
-
-int main(){
-   float  monto;
-   char tipoPago;
-   cout<<"Ingrese el monto a pagar ";
-   cin>>monto;
-   cout<<"Ingrese forma de pago (E=efectivo T=tarjeta) ";
-   cin>>tipoPago;
-   if (tipoPago=='E' || tipoPago=='e'){
-    monto=monto-0.1*monto;
-   }
-  cout<<"El monto a pagar es "<<monto<<endl;
-}
+Algoritmo U2_TP2_EJ6_formas_pago
+	Definir formas_pago Como Caracter
+	Definir monto_a_pagar Como Real
+	
+	Escribir "Ingrese e ó t segun su forma de pago"
+	Leer formas_pago
+	
+	Escribir "Ingrese monto a pagar"
+	Leer monto_a_pagar
+	
+	Si formas_pago=='e' Entonces
+		monto_a_pagar=monto_a_pagar-monto_a_pagar*0.10
+	FinSi
+	Escribir "El monto a pagar es: ",monto_a_pagar	
+FinAlgoritmo
 ````
 <a href="#/1"><img src="images/back_indice.png"></a>
 
@@ -1027,6 +1047,34 @@ Del monto calculado se deben realizar los descuentos por aportes e impuestos, co
 
 ---
 #### EJ15: Salario de operario
+````javascript
+Algoritmo U2_TP2_Ej15_sueldos
+	Definir cant_hs, tiempo_extra Como Entero
+	Definir sueldo Como Real
+	
+	Escribir "Ingrese cantidad de hs trabajadas"
+	Leer cant_hs
+	
+	Si cant_hs<=75 Entonces
+		sueldo=cant_hs*80
+	SiNo
+		tiempo_extra=cant_hs-75
+		sueldo=tiempo_extra*80*1.5+75*80
+	Fin Si
+	
+	Si sueldo<=3000 Entonces
+		sueldo=sueldo-sueldo*0.12
+	SiNo
+		Si sueldo>3000 Y sueldo<5000 Entonces
+			sueldo=sueldo*0.8
+		SiNo
+			sueldo=sueldo*0.7
+		Fin Si
+	Fin Si
+	
+	Escribir "Su sueldo es: $", sueldo
+FinAlgoritmo
+````
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
