@@ -201,7 +201,7 @@ Created by [edme88]("https://t.me/edme88")
         Llamada telefónica
         <p>
             <a href="#/68"><img src="images/problema.png"></a>
-            <a href="#/70"><img src="images/Cmasmas.png"></a>
+            <a href="#/71"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
