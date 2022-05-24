@@ -235,6 +235,9 @@ Created by [edme88]("https://t.me/edme88")
         <p>
             <a href="#/88"><img src="images/problema.png"></a>
             <a href="#/90"><img src="images/pseint_logo.png"></a>
+            <a href="#/89"><img src="images/Cmasmas.png"></a>
+            <a href="#/91"><img src="images/Cmasmas.png"></a>
+            <a href="#/94"><img src="images/Cmasmas.png"></a>
             <a href="#/92"><img src="images/youtube_logo.png"></a>
         </p>
     </div>
@@ -1190,6 +1193,36 @@ Permite al usuario ingresar un número. Verifica si el número es o no primo. Im
 
 ---
 #### EJ18: Primos
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    //entrada
+    int numUsuario;
+    //procesar
+    int divisor;
+    //salida
+    int cantDivisores=0;
+
+    cout<<"Ingrese un numero: "<<endl;
+    cin>>numUsuario;
+
+    for(divisor=1;divisor<=numUsuario;divisor++){
+        if(numUsuario%divisor==0){
+            cantDivisores=cantDivisores+1; //cantDivisores++;
+            cout<<"El numero es divisible en: "<<divisor<<endl;
+        }
+    }
+
+    if(cantDivisores==2){
+        cout<<"El numero "<<numUsuario<<" es primo"<<endl;
+    }else{
+        cout<<"El numero "<<numUsuario<<" NO es primo"<<endl;
+    }
+}
+````
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
@@ -1225,20 +1258,29 @@ FinAlgoritmo
 ````javascript
 #include <iostream>
 using namespace std;
+
 int main(){
-    int N,cantdiv=0;
-    cout<<"Ingrese el numero que desea comprobar ";
-    cin>>N;
-    for (int i=2;i<=N/2;i++){
-        if (N % i == 0 ){
-            cantdiv++;
+    //entrada
+    int numUsuario;
+    //procesar
+    int divisor;
+    //salida
+    int cantDivisores=0;
+
+    cout<<"Ingrese un numero: "<<endl;
+    cin>>numUsuario;
+
+    for(divisor=2;divisor<numUsuario;divisor++){
+        if(numUsuario%divisor==0){
+            cantDivisores=cantDivisores+1; //cantDivisores++;
+            cout<<"El numero es divisible en: "<<divisor<<endl;
         }
     }
-    if (cantdiv == 0){
-        cout<<"El numero "<<N<<" es un numero primo"<<endl;
-    }
-    else{
-        cout<<"El numero "<<N<<" no es un numero primo"<<endl;
+
+    if(cantDivisores==0){
+        cout<<"El numero "<<numUsuario<<" es primo"<<endl;
+    }else{
+        cout<<"El numero "<<numUsuario<<" NO es primo"<<endl;
     }
 }
 ````
@@ -1258,8 +1300,38 @@ El programa debe imprimir los términos de la siguiente serie: 2,5,7,10,12,15,17
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 ---
-#### EJ19: Serie 2,5,7,10..
-<a href="#/3"><img src="images/back_indice.png"></a>
+#### EJ18: Primos
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    //entrada
+    int numUsuario;
+    //procesar
+    int divisor=2;
+    //salida
+    bool bandera=true;
+
+    cout<<"Ingrese un numero: "<<endl;
+    cin>>numUsuario;
+
+    while(bandera && divisor<numUsuario){
+        if(numUsuario%divisor==0){
+            bandera=false;
+        }
+        divisor++;
+    }
+
+    if(bandera){
+        cout<<"El numero "<<numUsuario<<" es primo "<<endl;
+    }else{
+        cout<<"El numero "<<numUsuario<<" NO es primo "<<endl;
+    }
+}
+````
+
+<a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
 #### EJ19: Serie 2,5,7,10..
