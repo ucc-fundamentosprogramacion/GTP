@@ -235,6 +235,7 @@ Created by [edme88]("https://t.me/edme88")
         Traducir DF
         <p>
             <a href="#/88"><img src="images/problema.png"></a>
+            <a href="#/90"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
 </div>
@@ -1287,6 +1288,27 @@ del 20%. El precio por Km recorrido es $0,19.
 
 ---
 #### EJ18: Traducir DF
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    int distancia,estadia;
+    float precio_x_km;
+    cout<<"ingrese distancia entre ciudades (expresada en km)"<<endl;
+    cin>>distancia;
+    cout<<"ingrese dias de estadia"<<endl;
+    cin>>estadia;
+    precio_x_km=distancia*2*0.19;
+    if(estadia>10 && (distancia*2)>500){
+        precio_x_km=precio_x_km*0.80;
+        cout<<"Se aplico un descuento: "<<endl;
+    }
+    cout<<"el precio del pasaje del tren es"<<precio_x_km<<endl;
+
+}
+````
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 ---
