@@ -215,6 +215,7 @@ Created by [edme88]("https://t.me/edme88")
         Llamada telefónica
         <p>
             <a href="#/68"><img src="images/problema.png"></a>
+            <a href="#/70"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -279,6 +280,8 @@ Created by [edme88]("https://t.me/edme88")
         f(T) con T, OP
         <p>
             <a href="#/103"><img src="images/problema.png"></a>
+            <a href="#/106"><img src="images/Cmasmas.png"></a>
+            <a href="#/107"><img src="images/Cmasmas.png"></a>
         </p>
     </div>
     <div>
@@ -1037,6 +1040,30 @@ misma teniendo en cuenta:
 
 </script></section><section  data-markdown><script type="text/template">
 #### EJ14: Llamada telefónica
+````javascript
+#include <iostream>
+using namespace std;
+
+int main(){
+    //Variables Entrada
+    int duracion_llamada, min_adicionales;
+    //Variables de Salida
+    float costo;
+
+    cout<<"Ingrese cantidad de minutos que duro la llamada: "<<endl;
+    cin>>duracion_llamada;
+
+    if(duracion_llamada<=3){
+        costo=5;
+    }else{
+        min_adicionales = duracion_llamada-3;
+        costo = 5 + min_adicionales*2.5;
+    }
+
+    cout<<"El costo de la llamada es: $"<<costo<<endl;
+}
+````
+
 <a href="#/2"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
@@ -1453,10 +1480,78 @@ Recibir como entrada 2 valores: T y OP. Calcule el resultado de la siguiente fun
 
 </script></section><section  data-markdown><script type="text/template">
 #### EJ21: f(T) con T, OP 
+````javascript
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    //Variables Entrada
+    int T, OP;
+    //Variables de Salida
+    float f_de_T;
+
+    cout<<"Ingrese el valor de T"<<endl;
+    cin>>T;
+    cout<<"Ingrese la opcion"<<endl;
+    cin>>OP;
+
+
+    switch(OP){
+    case 1:
+            f_de_T = T/5;
+            break;
+    case 2:
+            f_de_T = pow(T, T);
+            break;
+    case 3:
+    case 4:
+            f_de_T = (6*T)/2;
+            break;
+    default:
+        f_de_T=1;
+    }
+
+    cout<<"El valor de f(T)="<<f_de_T<<endl;
+}
+````
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
 #### EJ21: f(T) con T, OP 
+````javascript
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    //Variables Entrada
+    int T, OP;
+    //Variables de Salida
+    float f_de_T;
+
+    cout<<"Ingrese el valor de T"<<endl;
+    cin>>T;
+    cout<<"Ingrese la opcion"<<endl;
+    cin>>OP;
+
+
+    if(OP==1){
+            f_de_T = T/5;
+    }else if(OP==2){
+        f_de_T = pow(T, T);
+    }else if(OP==3 || OP==4){
+        f_de_T = (6*T)/2;
+    }else{
+        f_de_T=1;
+    }
+
+    cout<<"El valor de f(T)="<<f_de_T<<endl;
+}
+
+````
+
 <a href="#/3"><img src="images/back_indice.png"></a>
 
 </script></section><section  data-markdown><script type="text/template">
